@@ -23,7 +23,7 @@ cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
 
 # create an Experiment object to handle the configuration of model parameters
 # and output diagnostics
-exp = Experiment('giant_planet_test_experiment', codebase=cb)
+exp = Experiment('giant_planet_test_experiment_high-res', codebase=cb)
 
 #Tell model how to write diagnostics
 diag = DiagTable()
@@ -208,5 +208,5 @@ exp.namelist = namelist = Namelist({
 #Lets do a run!
 if __name__=="__main__":
     exp.run(1, use_restart=False, num_cores=NCORES)
-    for i in range(2,121):
+    for i in range(2,10):
         exp.run(i, num_cores=NCORES)
