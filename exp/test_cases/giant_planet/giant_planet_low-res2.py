@@ -23,21 +23,21 @@ cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
 
 # create an Experiment object to handle the configuration of model parameters
 # and output diagnostics
-exp = Experiment('giant_planet_test_experiment_high-res', codebase=cb)
+exp = Experiment('giant_planet_test_experiment_T85', codebase=cb)
 
 #Tell model how to write diagnostics
 diag = DiagTable()
 diag.add_file('atmos_monthly', 30, 'days', time_units='days')
 
 #Tell model which diagnostics to write
-diag.add_field('dynamics', 'ps', time_avg=True)
-diag.add_field('dynamics', 'bk')
-diag.add_field('dynamics', 'pk')
-diag.add_field('dynamics', 'ucomp', time_avg=True)
-diag.add_field('dynamics', 'vcomp', time_avg=True)
+#diag.add_field('dynamics', 'ps', time_avg=True)
+#diag.add_field('dynamics', 'bk')
+#diag.add_field('dynamics', 'pk')
+#diag.add_field('dynamics', 'ucomp', time_avg=True)
+#diag.add_field('dynamics', 'vcomp', time_avg=True)
 diag.add_field('dynamics', 'temp', time_avg=True)
-diag.add_field('dynamics', 'vor', time_avg=True)
-diag.add_field('dynamics', 'div', time_avg=True)
+#diag.add_field('dynamics', 'vor', time_avg=True)
+#diag.add_field('dynamics', 'div', time_avg=True)
 
 exp.diag_table = diag
 
@@ -140,7 +140,7 @@ exp.namelist = namelist = Namelist({
     },
 
     'fms_nml': {
-        'domains_stack_size': 5000000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
+        'domains_stack_size': 600000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
     },
 
     'fms_io_nml': {
@@ -160,10 +160,10 @@ exp.namelist = namelist = Namelist({
         'scale_heights' : 5.0, #Number of vertical scale-heights to include
         'exponent':2.0,#Parameter for setting vertical distribution of sigma levels
         'robert_coeff':0.03,
-        'num_fourier':  213, #Number of Fourier modes
-        'num_spherical':  214, #Number of spherical harmonics in triangular truncation
-        'lon_max':  1024, #Lon grid points
-        'lat_max':  320, #Lat grid points
+        'num_fourier':  85, #Number of Fourier modes
+        'num_spherical':  86, #Number of spherical harmonics in triangular truncation
+        'lon_max':  256, #Lon grid points
+        'lat_max':  128, #Lat grid points
         'num_levels':  30, #Number of vertical levels
         'do_water_correction':  False, #Turn off enforced water conservation as model is dry
         'damping_option':  'exponential_cutoff', #Use the high-wavenumber filter option
@@ -208,5 +208,5 @@ exp.namelist = namelist = Namelist({
 #Lets do a run!
 if __name__=="__main__":
     exp.run(1, use_restart=False, num_cores=NCORES)
-    for i in range(2,10):
+    for i in range(2,121):
         exp.run(i, num_cores=NCORES)

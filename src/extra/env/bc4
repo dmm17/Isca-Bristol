@@ -1,0 +1,6 @@
+echo loadmodules for Bluecrystal 4 machines
+
+module add libs/netcdf/4.4.1.1.MPI
+
+export F90=mpiifort
+export CC=mpiicc

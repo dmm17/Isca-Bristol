@@ -1,0 +1,157 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-06-22 16:23:23,025 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names'
+2018-06-22 16:23:23,036 - isca - INFO - Running compiler
+2018-06-22 16:23:23,199 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-06-22 16:23:23,374 - isca - INFO - Currently Loaded Modules:
+2018-06-22 16:23:23,374 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-06-22 16:23:23,374 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-06-22 16:23:23,374 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-06-22 16:23:23,374 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-06-22 16:23:23,374 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-06-22 16:23:23,402 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names
+2018-06-22 16:23:26,844 - isca - INFO - ................................................................................................................................................................................................... Makefile is ready.
+2018-06-22 16:23:27,056 - isca - INFO - make: Nothing to be done for `all'.
+2018-06-22 16:23:27,254 - isca - INFO - make: `isca.x' is up to date.
+2018-06-22 16:23:27,259 - isca - INFO - Compilation complete.
+2018-06-22 16:23:27,260 - isca - DEBUG - Making directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack'
+2018-06-22 16:23:27,286 - isca - WARNING - Tried to remove run directory but it doesnt exist
+2018-06-22 16:23:27,294 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run'
+2018-06-22 16:23:27,310 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run'
+2018-06-22 16:23:27,491 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/input.nml'
+2018-06-22 16:23:27,492 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/field_table'
+2018-06-22 16:23:27,501 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/diag_table'
+2018-06-22 16:23:27,502 - isca - INFO - Running without restart file
+2018-06-22 16:23:27,505 - isca - INFO - Beginning run 1
+2018-06-22 16:23:27,509 - isca - INFO - process running as 20824
+2018-06-22 16:23:27,610 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-06-22 16:23:27,780 - isca - DEBUG - 
+2018-06-22 16:23:27,780 - isca - DEBUG - Currently Loaded Modules:
+2018-06-22 16:23:27,780 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-06-22 16:23:27,780 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-06-22 16:23:27,780 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-06-22 16:23:27,780 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-06-22 16:23:27,780 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-06-22 16:23:27,780 - isca - DEBUG - 
+2018-06-22 16:23:28,505 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-06-22 16:23:28,505 - isca - DEBUG - &MPP_IO_NML
+2018-06-22 16:23:28,505 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-06-22 16:23:28,505 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-06-22 16:23:28,506 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-06-22 16:23:28,506 - isca - DEBUG - SHUFFLE =           0,
+2018-06-22 16:23:28,506 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-06-22 16:23:28,506 - isca - DEBUG - /
+2018-06-22 16:23:28,507 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-06-22 16:23:28,509 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-06-22 16:23:28,514 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-06-22 16:23:28,515 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-06-22 16:23:28,515 - isca - DEBUG - X-AXIS = 1024
+2018-06-22 16:23:28,515 - isca - DEBUG - Y-AXIS =   80  80  80  80
+2018-06-22 16:23:31,802 - isca - DEBUG - mean surface pressure=3000.0000 mb
+2018-06-22 16:23:32,771 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using dry convection scheme.
+2018-06-22 16:23:32,823 - isca - DEBUG - 
+2018-06-22 16:23:32,823 - isca - DEBUG - 
+2018-06-22 16:23:32,823 - isca - DEBUG - Rayleigh Drag in boundary layer.
+2018-06-22 16:23:32,823 - isca - DEBUG - Extent of frictional layer: sigma_b =     0.85
+2018-06-22 16:23:32,823 - isca - DEBUG - Frictional timescale in days:     10.00
+2018-06-22 16:23:32,823 - isca - DEBUG - 
+2018-06-22 16:23:32,823 - isca - DEBUG - 
+2018-06-22 16:23:32,823 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Because gp_surface=.True., setting albedo=0.0
+2018-06-22 16:23:32,823 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Note that if grey radiation scheme != Schneider is used, model will seg-fault b/c gp_surface does not define a t_surf, which is required by most grey schemes.
+2018-06-22 16:23:32,859 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Schneider & Liu (2009) radiation scheme for GIANT PLANETS.
+2018-06-22 16:29:27,035 - isca - DEBUG - Integration completed through     1 days     0 seconds
+2018-06-22 16:35:20,900 - isca - DEBUG - Integration completed through     2 days     0 seconds
+2018-06-22 16:41:16,339 - isca - DEBUG - Integration completed through     3 days     0 seconds
+2018-06-22 16:47:12,300 - isca - DEBUG - Integration completed through     4 days     0 seconds
+2018-06-22 16:53:08,171 - isca - DEBUG - Integration completed through     5 days     0 seconds
+2018-06-22 16:59:04,399 - isca - DEBUG - Integration completed through     6 days     0 seconds
+2018-06-22 17:05:00,475 - isca - DEBUG - Integration completed through     7 days     0 seconds
+2018-06-22 17:10:56,657 - isca - DEBUG - Integration completed through     8 days     0 seconds
+2018-06-22 17:16:52,670 - isca - DEBUG - Integration completed through     9 days     0 seconds
+2018-06-22 17:22:48,684 - isca - DEBUG - Integration completed through    10 days     0 seconds
+2018-06-22 17:28:44,696 - isca - DEBUG - Integration completed through    11 days     0 seconds
+2018-06-22 17:34:40,764 - isca - DEBUG - Integration completed through    12 days     0 seconds
+2018-06-22 17:40:36,636 - isca - DEBUG - Integration completed through    13 days     0 seconds
+2018-06-22 17:46:31,747 - isca - DEBUG - Integration completed through    14 days     0 seconds
+2018-06-22 17:52:26,998 - isca - DEBUG - Integration completed through    15 days     0 seconds
+2018-06-22 17:58:22,280 - isca - DEBUG - Integration completed through    16 days     0 seconds
+2018-06-22 18:04:18,425 - isca - DEBUG - Integration completed through    17 days     0 seconds
+2018-06-22 18:10:14,835 - isca - DEBUG - Integration completed through    18 days     0 seconds
+2018-06-22 18:16:11,191 - isca - DEBUG - Integration completed through    19 days     0 seconds
+2018-06-22 18:22:06,983 - isca - DEBUG - Integration completed through    20 days     0 seconds
+2018-06-22 18:27:59,464 - isca - DEBUG - Integration completed through    21 days     0 seconds
+2018-06-22 18:33:51,166 - isca - DEBUG - Integration completed through    22 days     0 seconds
+2018-06-22 18:39:44,325 - isca - DEBUG - Integration completed through    23 days     0 seconds
+2018-06-22 18:45:38,801 - isca - DEBUG - Integration completed through    24 days     0 seconds
+2018-06-22 18:51:32,496 - isca - DEBUG - Integration completed through    25 days     0 seconds
+2018-06-22 18:57:26,002 - isca - DEBUG - Integration completed through    26 days     0 seconds
+2018-06-22 19:03:19,683 - isca - DEBUG - Integration completed through    27 days     0 seconds
+2018-06-22 19:09:07,278 - isca - DEBUG - Integration completed through    28 days     0 seconds
+2018-06-22 19:15:01,868 - isca - DEBUG - Integration completed through    29 days     0 seconds
+2018-06-22 19:20:56,855 - isca - DEBUG - Integration completed through    30 days     0 seconds
+2018-06-22 19:20:57,141 - isca - DEBUG - 
+2018-06-22 19:20:57,141 - isca - DEBUG - FATAL from PE    1: MPP_DO_GLOBAL_FIELD user stack overflow: call mpp_domains_set_stack_size( 4915200) from all PEs.
+2018-06-22 19:20:57,141 - isca - DEBUG - 
+2018-06-22 19:20:57,141 - isca - DEBUG - application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+Exception in thread background thread for pid 20824:
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2459, in background_thread
+    handle_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2157, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2018-06-22 19:20:57,183 - isca - ERROR - Run 1 failed. See log for details.
+2018-06-22 19:20:57,183 - isca - ERROR - Error: ErrorReturnCode_1('\n\n  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n',)
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 266, in run
+    proc.wait()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 792, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/giant_planet_test_experiment_stack/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "giant_planet_low-res.py", line 210, in <module>
+    exp.run(1, use_restart=False, num_cores=NCORES)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 280, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError
+
+real	177m39.762s
+user	0m19.394s
+sys	0m3.302s

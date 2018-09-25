@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --partition=cpu_test
+
+/bin/env
+ulimit -m unlimited
+ulimit -a

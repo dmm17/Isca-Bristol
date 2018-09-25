@@ -1,0 +1,158 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-07-04 16:22:57,149 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names'
+2018-07-04 16:22:57,157 - isca - INFO - Running compiler
+2018-07-04 16:22:57,271 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:22:57,441 - isca - INFO - Currently Loaded Modules:
+2018-07-04 16:22:57,442 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:22:57,442 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:22:57,442 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:22:57,442 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:22:57,442 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:22:57,468 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names
+2018-07-04 16:22:58,115 - isca - INFO - ................................................................................................................................................................................................... Makefile is ready.
+2018-07-04 16:22:58,381 - isca - INFO - make: Nothing to be done for `all'.
+2018-07-04 16:22:58,561 - isca - INFO - make: `isca.x' is up to date.
+2018-07-04 16:22:58,567 - isca - INFO - Compilation complete.
+2018-07-04 16:22:58,567 - isca - DEBUG - Making directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2'
+2018-07-04 16:22:58,587 - isca - WARNING - Tried to remove run directory but it doesnt exist
+2018-07-04 16:22:58,595 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run'
+2018-07-04 16:22:58,616 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run'
+2018-07-04 16:22:58,820 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/input.nml'
+2018-07-04 16:22:58,822 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/field_table'
+2018-07-04 16:22:58,831 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/diag_table'
+2018-07-04 16:22:58,991 - isca - INFO - Running without restart file
+2018-07-04 16:22:58,995 - isca - INFO - Beginning run 1
+2018-07-04 16:22:58,998 - isca - INFO - process running as 18890
+2018-07-04 16:22:59,134 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:22:59,301 - isca - DEBUG - 
+2018-07-04 16:22:59,301 - isca - DEBUG - Currently Loaded Modules:
+2018-07-04 16:22:59,302 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:22:59,302 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:22:59,302 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:22:59,302 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:22:59,302 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:22:59,302 - isca - DEBUG - 
+2018-07-04 16:23:00,184 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-07-04 16:23:00,184 - isca - DEBUG - &MPP_IO_NML
+2018-07-04 16:23:00,186 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-07-04 16:23:00,186 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-07-04 16:23:00,186 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-07-04 16:23:00,186 - isca - DEBUG - SHUFFLE =           0,
+2018-07-04 16:23:00,186 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-07-04 16:23:00,186 - isca - DEBUG - /
+2018-07-04 16:23:00,186 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-07-04 16:23:00,189 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-07-04 16:23:00,194 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-07-04 16:23:00,195 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-07-04 16:23:00,195 - isca - DEBUG - X-AXIS =  128
+2018-07-04 16:23:00,195 - isca - DEBUG - Y-AXIS =   16  16  16  16
+2018-07-04 16:23:00,215 - isca - DEBUG - Message from subroutine regularize: lambda=  1.00000000E-07  fraction_smoothed=  3.32996833E-01
+2018-07-04 16:23:00,216 - isca - DEBUG - Message from subroutine regularize: lambda=  2.00000000E-07  fraction_smoothed=  4.27244378E-01
+2018-07-04 16:23:00,218 - isca - DEBUG - Message from subroutine regularize: lambda=  5.95506981E-07  fraction_smoothed=  6.24173077E-01
+2018-07-04 16:23:00,220 - isca - DEBUG - Message from subroutine regularize: lambda=  9.48633651E-07  fraction_smoothed=  7.08755612E-01
+2018-07-04 16:23:00,223 - isca - DEBUG - Message from subroutine regularize: lambda=  1.32957313E-06  fraction_smoothed=  7.64227308E-01
+2018-07-04 16:23:00,226 - isca - DEBUG - Message from subroutine regularize: lambda=  1.57523410E-06  fraction_smoothed=  7.89588033E-01
+2018-07-04 16:23:00,229 - isca - DEBUG - Message from subroutine regularize: lambda=  1.67609138E-06  fraction_smoothed=  7.98416297E-01
+2018-07-04 16:23:00,232 - isca - DEBUG - Message from subroutine regularize: lambda=  1.69418418E-06  fraction_smoothed=  7.99918309E-01
+2018-07-04 16:23:00,236 - isca - DEBUG - Message from subroutine regularize: lambda=  1.69418418E-06  fraction_smoothed=  7.99918309E-01
+2018-07-04 16:23:00,236 - isca - DEBUG - 
+2018-07-04 16:23:00,236 - isca - DEBUG - Message from subroutine get_topography:
+2018-07-04 16:23:00,236 - isca - DEBUG - lambda=  1.69418418E-06  fraction_smoothed=  7.99918309E-01
+2018-07-04 16:23:00,236 - isca - DEBUG - 
+2018-07-04 16:23:00,256 - isca - DEBUG - mean surface pressure= 973.2448 mb
+2018-07-04 16:23:00,274 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-07-04 16:23:00,279 - isca - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_amip.nc is a year-independent climatology file
+2018-07-04 16:23:00,279 - isca - DEBUG - Initializing src field : siconc_clim_amip
+2018-07-04 16:23:00,337 - isca - DEBUG - NOTE from PE    0: interpolator_mod :ozone_1990.nc is a year-independent climatology file
+2018-07-04 16:23:00,337 - isca - DEBUG - Initializing src field : ozone_1990
+2018-07-04 16:23:36,051 - isca - DEBUG - Integration completed through    1 Jan  2   0: 0: 0
+2018-07-04 16:24:10,985 - isca - DEBUG - Integration completed through    1 Jan  3   0: 0: 0
+2018-07-04 16:24:46,065 - isca - DEBUG - Integration completed through    1 Jan  4   0: 0: 0
+2018-07-04 16:25:21,193 - isca - DEBUG - Integration completed through    1 Jan  5   0: 0: 0
+2018-07-04 16:25:56,477 - isca - DEBUG - Integration completed through    1 Jan  6   0: 0: 0
+2018-07-04 16:26:31,968 - isca - DEBUG - Integration completed through    1 Jan  7   0: 0: 0
+2018-07-04 16:27:07,436 - isca - DEBUG - Integration completed through    1 Jan  8   0: 0: 0
+2018-07-04 16:27:42,753 - isca - DEBUG - Integration completed through    1 Jan  9   0: 0: 0
+2018-07-04 16:28:17,921 - isca - DEBUG - Integration completed through    1 Jan 10   0: 0: 0
+2018-07-04 16:28:53,223 - isca - DEBUG - Integration completed through    1 Jan 11   0: 0: 0
+2018-07-04 16:29:28,452 - isca - DEBUG - Integration completed through    1 Jan 12   0: 0: 0
+2018-07-04 16:30:03,605 - isca - DEBUG - Integration completed through    1 Jan 13   0: 0: 0
+2018-07-04 16:30:38,901 - isca - DEBUG - Integration completed through    1 Jan 14   0: 0: 0
+2018-07-04 16:31:14,117 - isca - DEBUG - Integration completed through    1 Jan 15   0: 0: 0
+2018-07-04 16:31:49,334 - isca - DEBUG - Integration completed through    1 Jan 16   0: 0: 0
+2018-07-04 16:32:24,219 - isca - DEBUG - Integration completed through    1 Jan 17   0: 0: 0
+2018-07-04 16:32:59,154 - isca - DEBUG - Integration completed through    1 Jan 18   0: 0: 0
+2018-07-04 16:33:34,389 - isca - DEBUG - Integration completed through    1 Jan 19   0: 0: 0
+2018-07-04 16:34:09,629 - isca - DEBUG - Integration completed through    1 Jan 20   0: 0: 0
+2018-07-04 16:34:44,696 - isca - DEBUG - Integration completed through    1 Jan 21   0: 0: 0
+2018-07-04 16:35:19,939 - isca - DEBUG - Integration completed through    1 Jan 22   0: 0: 0
+2018-07-04 16:35:21,709 - isca - DEBUG - slurmstepd: error: *** STEP 1242232.0 ON compute304 CANCELLED AT 2018-07-04T16:35:21 ***
+2018-07-04 16:35:21,711 - isca - DEBUG - srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+2018-07-04 16:35:21,722 - isca - DEBUG - srun: error: compute304: task 0: Killed
+2018-07-04 16:35:21,722 - isca - DEBUG - [mpiexec@compute304.bc4.acrc.priv] control_cb (../../pm/pmiserv/pmiserv_cb.c:781): connection to proxy 0 at host compute304 failed
+2018-07-04 16:35:21,722 - isca - DEBUG - [mpiexec@compute304.bc4.acrc.priv] HYDT_dmxu_poll_wait_for_event (../../tools/demux/demux_poll.c:76): callback returned error status
+2018-07-04 16:35:21,722 - isca - DEBUG - [mpiexec@compute304.bc4.acrc.priv] HYD_pmci_wait_for_completion (../../pm/pmiserv/pmiserv_pmci.c:501): error waiting for event
+2018-07-04 16:35:21,722 - isca - DEBUG - [mpiexec@compute304.bc4.acrc.priv] main (../../ui/mpich/mpiexec.c:1147): process manager error waiting for completion
+Exception in thread background thread for pid 18890:
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2459, in background_thread
+    handle_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2157, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_255: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2018-07-04 16:35:21,805 - isca - ERROR - Run 1 failed. See log for details.
+2018-07-04 16:35:21,805 - isca - ERROR - Error: ErrorReturnCode_255('\n\n  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n',)
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 266, in run
+    proc.wait()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 792, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_255: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment2/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "realistic_continents_mix-layer_dann.py", line 75, in <module>
+    exp.run(1, use_restart=False, num_cores=NCORES)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 280, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError
+
+real	12m24.987s
+user	0m2.583s
+sys	0m0.676s
