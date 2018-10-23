@@ -1,0 +1,23 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-09-28 15:51:06,830 - isca - INFO - RRTM compilation disabled.
+2018-09-28 15:51:06,832 - isca - ERROR - Environment file /mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/env/bc4 not found
+Traceback (most recent call last):
+  File "grey_mars.py", line 23, in <module>
+    cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/codebase.py", line 221, in compile
+    env = get_env_file()
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/__init__.py", line 42, in get_env_file
+    raise IOError('Environment file %s not found' % filepath)
+OSError: Environment file /mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/env/bc4 not found
+
+real	0m31.691s
+user	0m0.529s
+sys	0m0.197s

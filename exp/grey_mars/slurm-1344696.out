@@ -1,0 +1,145 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-09-28 19:08:00,667 - isca - INFO - RRTM compilation disabled.
+2018-09-28 19:08:00,702 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names'
+2018-09-28 19:08:00,724 - isca - INFO - Running compiler
+2018-09-28 19:08:01,136 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-09-28 19:08:01,361 - isca - INFO - Currently Loaded Modules:
+2018-09-28 19:08:01,361 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-28 19:08:01,361 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-28 19:08:01,361 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-28 19:08:01,361 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-28 19:08:01,361 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-28 19:08:01,391 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+2018-09-28 19:08:07,444 - isca - INFO - .......................................................................................................................... Makefile is ready.
+2018-09-28 19:08:07,494 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c -I/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/include	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90
+2018-09-28 19:08:08,834 - isca - INFO - Using 8-byte addressing
+2018-09-28 19:08:08,834 - isca - INFO - Using PURE
+2018-09-28 19:08:08,834 - isca - INFO - Converting pointers to allocatable components
+2018-09-28 19:08:09,135 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_axis.F90
+2018-09-28 19:08:10,428 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_output.F90
+2018-09-28 19:08:10,877 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c -I/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/include	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_grid.F90
+2018-09-28 19:08:11,071 - isca - INFO - Using 8-byte addressing
+2018-09-28 19:08:11,071 - isca - INFO - Using PURE
+2018-09-28 19:08:11,071 - isca - INFO - Converting pointers to allocatable components
+2018-09-28 19:08:11,853 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_util.F90
+2018-09-28 19:08:12,991 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_table.F90
+2018-09-28 19:08:14,173 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c -I/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/include	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_manager.F90
+2018-09-28 19:08:14,382 - isca - INFO - Using 8-byte addressing
+2018-09-28 19:08:14,382 - isca - INFO - Using PURE
+2018-09-28 19:08:14,382 - isca - INFO - Converting pointers to allocatable components
+2018-09-28 19:08:19,725 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/tools/gauss_and_legendre.F90
+2018-09-28 19:08:20,073 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/tools/spherical_fourier.F90
+2018-09-28 19:08:21,072 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/fft/fft99.F90
+2018-09-28 19:08:22,147 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/fft/fft.F90
+2018-09-28 19:08:23,871 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/tools/grid_fourier.F90
+2018-09-28 19:08:24,397 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/tools/transforms.F90
+2018-09-28 19:08:26,259 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/press_and_geopot.F90
+2018-09-28 19:08:28,829 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/implicit.F90
+2018-09-28 19:08:30,472 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/spectral_damping.F90
+2018-09-28 19:08:31,286 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/fv_advection.F90
+2018-09-28 19:08:35,112 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/water_borrowing.F90
+2018-09-28 19:08:36,983 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/global_integral.F90
+2018-09-28 19:08:43,790 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/vert_coordinate.F90
+2018-09-28 19:08:47,194 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/spectral_initialize_fields.F90
+2018-09-28 19:08:48,453 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/ic_from_external_file.F90
+2018-09-28 19:08:49,792 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/topog_regularization.F90
+2018-09-28 19:08:50,835 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/topography/gaussian_topog.F90
+2018-09-28 19:08:51,505 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/horiz_interp/horiz_interp_conserve.F90
+2018-09-28 19:08:53,607 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/horiz_interp/horiz_interp_bilinear.F90
+2018-09-28 19:08:55,462 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/horiz_interp/horiz_interp_bicubic.F90
+2018-09-28 19:08:56,547 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/horiz_interp/horiz_interp_spherical.F90
+2018-09-28 19:08:57,669 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/horiz_interp/horiz_interp.F90
+2018-09-28 19:08:58,761 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/topography/topography.F90
+2018-09-28 19:09:00,100 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/spectral_init_cond.F90
+2018-09-28 19:09:00,722 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/every_step_diagnostics.F90
+2018-09-28 19:09:01,512 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/polvani_2004.F90
+2018-09-28 19:09:02,489 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/polvani_2007.F90
+2018-09-28 19:09:06,567 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/init/jablonowski_2006.F90
+2018-09-28 19:09:07,466 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include  -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/atmos_spectral/model/spectral_dynamics.F90
+2018-09-28 19:09:22,713 - isca - INFO - mpiicc -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include -I/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/include -D__IFC  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/mpp/affinity.c
+2018-09-28 19:09:34,330 - isca - INFO - In file included from /usr/include/errno.h(35),
+2018-09-28 19:09:34,331 - isca - INFO - from /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/mpp/affinity.c(29):
+2018-09-28 19:09:34,331 - isca - INFO - /usr/include/bits/errno.h(24): catastrophic error: cannot open source file "linux/errno.h"
+2018-09-28 19:09:34,331 - isca - INFO - # include <linux/errno.h>
+2018-09-28 19:09:34,331 - isca - INFO - ^
+2018-09-28 19:09:34,332 - isca - INFO - compilation aborted for /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/mpp/affinity.c (code 4)
+2018-09-28 19:09:34,337 - isca - INFO - make: *** [affinity.o] Error 4
+2018-09-28 19:09:34,339 - isca - INFO - ERROR: mkmf failed for grey_isca.x
+Exception in thread background thread for pid 10295:
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2459, in background_thread
+    handle_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2157, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/compile.sh
+
+  STDOUT:
+loadmodules for Bluecrystal 4 machines
+
+Currently Loaded Modules:
+  1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+  2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+  3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+  4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+  5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+
+/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+.......................................................................................................................... Makefile is ready.
+mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML ... (20770 more, please see e.stdout)
+
+  STDERR:
+
+
+Traceback (most recent call last):
+  File "grey_mars.py", line 23, in <module>
+    cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/codebase.py", line 255, in compile
+    for line in sh.bash(P(self.builddir, 'compile.sh'), _iter=True, _err_to_out=True):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 863, in next
+    self.wait()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 792, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/compile.sh
+
+  STDOUT:
+loadmodules for Bluecrystal 4 machines
+
+Currently Loaded Modules:
+  1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+  2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+  3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+  4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+  5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+
+/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+.......................................................................................................................... Makefile is ready.
+mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML ... (20770 more, please see e.stdout)
+
+  STDERR:
+
+
+real	1m54.413s
+user	0m49.144s
+sys	0m4.294s
