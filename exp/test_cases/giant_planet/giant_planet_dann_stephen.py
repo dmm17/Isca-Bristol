@@ -23,7 +23,7 @@ cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
 
 # create an Experiment object to handle the configuration of model parameters
 # and output diagnostics
-exp = Experiment('giant_planet_test_experiment_high-res', codebase=cb)
+exp = Experiment('giant_planet_test_experiment_dann_stephen', codebase=cb)
 
 #Tell model how to write diagnostics
 diag = DiagTable()
@@ -88,6 +88,7 @@ exp.namelist = namelist = Namelist({
 
     'surface_flux_nml': {
         'use_virtual_temp': False,
+        'flux_heat_gp': 10., #changed surface flux from 5.7 (Jupiter)
         'do_simple': True,
         'old_dtaudv': True, 
         'diabatic_acce':  1.0, #Parameter to artificially accelerate the diabatic processes during spinup. 1.0 performs no such acceleration, >1.0 performs acceleration           
@@ -130,7 +131,7 @@ exp.namelist = namelist = Namelist({
         'rad_scheme': 'Schneider', #Use the Schneider & Liu option for the grey scheme
         'do_seasonal': False,               #Don't use seasonally-varying radiation 
         'atm_abs': 0.2,                      # default: 0.0
-        'solar_constant':  50.7, #Change solar constant
+        'solar_constant':  507.0, #Change solar constant, currently set to 10X jupitor
         'diabatic_acce':  1.0, #Parameter to artificially accelerate the diabatic processes during spinup. 1.0 performs no such acceleration, >1.0 performs acceleration        
     },
 
@@ -140,7 +141,7 @@ exp.namelist = namelist = Namelist({
     },
 
     'fms_nml': {
-        'domains_stack_size': 5000000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
+        'domains_stack_size': 620000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
     },
 
     'fms_io_nml': {
@@ -176,7 +177,7 @@ exp.namelist = namelist = Namelist({
     
     'constants_nml': {
 #Set Jupiter constants
-        'radius':  69860.0e3,
+#        'radius':  69860.0e3,
         'grav':  26.0,
         'omega':  1.7587e-4,
         'orbital_period':  4332.589*86400.,
@@ -208,5 +209,5 @@ exp.namelist = namelist = Namelist({
 #Lets do a run!
 if __name__=="__main__":
     exp.run(1, use_restart=False, num_cores=NCORES)
-    for i in range(2,10):
+    for i in range(2,121):
         exp.run(i, num_cores=NCORES)

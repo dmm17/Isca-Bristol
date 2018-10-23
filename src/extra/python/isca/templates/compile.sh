@@ -15,7 +15,7 @@ template_debug={{ template_dir }}/mkmf.template.debug
 execdir={{ execdir }}        # where code is compiled and executable is created
 executable={{ executable_name }}
 
-netcdf_flags=`nc-config --fflags --flibs`
+netcdf_flags=`nc-config --fflags --libs`
 
 # 2. Load the necessary tools into the environment
 module purge

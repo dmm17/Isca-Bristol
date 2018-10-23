@@ -1,0 +1,138 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-07-04 16:04:27,311 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names'
+2018-07-04 16:04:27,330 - isca - INFO - Running compiler
+2018-07-04 16:04:27,441 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:04:27,613 - isca - INFO - Currently Loaded Modules:
+2018-07-04 16:04:27,613 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:04:27,613 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:04:27,613 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:04:27,613 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:04:27,613 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:04:27,637 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names
+2018-07-04 16:04:28,421 - isca - INFO - ................................................................................................................................................................................................... Makefile is ready.
+2018-07-04 16:04:28,658 - isca - INFO - make: Nothing to be done for `all'.
+2018-07-04 16:04:28,833 - isca - INFO - make: `isca.x' is up to date.
+2018-07-04 16:04:28,838 - isca - INFO - Compilation complete.
+2018-07-04 16:04:28,860 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:28,879 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:28,880 - isca - WARNING - Data for run 1 already exists but overwrite_data is False. Stopping.
+2018-07-04 16:04:28,894 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:28,894 - isca - WARNING - Data for run 2 already exists but overwrite_data is False. Stopping.
+2018-07-04 16:04:28,910 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:28,910 - isca - WARNING - Data for run 3 already exists but overwrite_data is False. Stopping.
+2018-07-04 16:04:28,924 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:28,925 - isca - WARNING - Data for run 4 already exists but overwrite_data is False. Stopping.
+2018-07-04 16:04:28,939 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run'
+2018-07-04 16:04:29,038 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/input.nml'
+2018-07-04 16:04:29,039 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/field_table'
+2018-07-04 16:04:29,049 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/diag_table'
+2018-07-04 16:04:29,109 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment/restarts/res0004.tar.gz'
+2018-07-04 16:04:29,629 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment/restarts/res0004.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/INPUT
+2018-07-04 16:04:29,633 - isca - INFO - Beginning run 5
+2018-07-04 16:04:29,638 - isca - INFO - process running as 15918
+2018-07-04 16:04:29,731 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:04:29,889 - isca - DEBUG - 
+2018-07-04 16:04:29,889 - isca - DEBUG - Currently Loaded Modules:
+2018-07-04 16:04:29,889 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:04:29,889 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:04:29,889 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:04:29,889 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:04:29,889 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:04:29,889 - isca - DEBUG - 
+2018-07-04 16:04:31,665 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-07-04 16:04:31,665 - isca - DEBUG - &MPP_IO_NML
+2018-07-04 16:04:31,666 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-07-04 16:04:31,666 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-07-04 16:04:31,666 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-07-04 16:04:31,666 - isca - DEBUG - SHUFFLE =           0,
+2018-07-04 16:04:31,666 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-07-04 16:04:31,666 - isca - DEBUG - /
+2018-07-04 16:04:31,667 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-07-04 16:04:31,670 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-07-04 16:04:31,675 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-07-04 16:04:31,676 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-07-04 16:04:31,676 - isca - DEBUG - X-AXIS =  128
+2018-07-04 16:04:31,676 - isca - DEBUG - Y-AXIS =   16  16  16  16
+2018-07-04 16:04:31,733 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - FATAL from PE    1: Interpolator_init : Data file INPUT/siconc_clim_amip.nc does not exist
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - FATAL from PE    2: Interpolator_init : Data file INPUT/siconc_clim_amip.nc does not exist
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - FATAL from PE    3: Interpolator_init : Data file INPUT/siconc_clim_amip.nc does not exist
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,738 - isca - DEBUG - FATAL from PE    0: Interpolator_init : Data file INPUT/siconc_clim_amip.nc does not exist
+2018-07-04 16:04:31,738 - isca - DEBUG - 
+2018-07-04 16:04:31,739 - isca - DEBUG - 
+2018-07-04 16:04:31,739 - isca - DEBUG - FATAL from PE    0: Interpolator_init : Data file INPUT/siconc_clim_amip.nc does not exist
+2018-07-04 16:04:31,739 - isca - DEBUG - 
+2018-07-04 16:04:31,739 - isca - DEBUG - application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+2018-07-04 16:04:31,739 - isca - DEBUG - application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+2018-07-04 16:04:31,739 - isca - DEBUG - application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+2018-07-04 16:04:31,739 - isca - DEBUG - application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+Exception in thread background thread for pid 15918:
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2459, in background_thread
+    handle_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2157, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+2018-07-04 16:04:31,760 - isca - ERROR - Run 5 failed. See log for details.
+2018-07-04 16:04:31,760 - isca - ERROR - Error: ErrorReturnCode_1('\n\n  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/run.sh\n\n  STDOUT:\n\n\n  STDERR:\n',)
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 266, in run
+    proc.wait()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 792, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment/run/run.sh
+
+  STDOUT:
+
+
+  STDERR:
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "realistic_continents_fixed_sst_dann.py", line 75, in <module>
+    exp.run(i, num_cores=NCORES)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 280, in run
+    raise FailedRunError()
+isca.experiment.FailedRunError
+
+real	0m5.450s
+user	0m2.025s
+sys	0m0.624s

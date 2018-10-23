@@ -1,0 +1,112 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-09-25 10:39:56,313 - isca - INFO - RRTM compilation disabled.
+2018-09-25 10:39:56,348 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names'
+2018-09-25 10:39:56,365 - isca - INFO - Running compiler
+2018-09-25 10:39:57,433 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-09-25 10:39:57,684 - isca - INFO - Currently Loaded Modules:
+2018-09-25 10:39:57,684 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 10:39:57,684 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 10:39:57,684 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 10:39:57,684 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 10:39:57,685 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 10:39:57,726 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+2018-09-25 10:40:02,409 - isca - INFO - .......................................................................................................................... Makefile is ready.
+2018-09-25 10:40:02,453 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include  -I/usr/local/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/constants/constants.F90
+2018-09-25 10:40:03,835 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include  -I/usr/local/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/time_manager/time_manager.F90
+2018-09-25 10:40:04,994 - isca - INFO - mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML -DOVERLOAD_C8 -DRRTM_NO_COMPILE -I/usr/local/include  -I/usr/local/include -fpp -stack_temps -safe_cray_ptr -ftz -assume byterecl -shared-intel -i4 -r8 -g -O2 -diag-disable 6843  -c -I/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/include	/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90
+2018-09-25 10:40:05,188 - isca - INFO - Using 8-byte addressing
+2018-09-25 10:40:05,188 - isca - INFO - Using PURE
+2018-09-25 10:40:05,188 - isca - INFO - Converting pointers to allocatable components
+2018-09-25 10:40:05,558 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90(179): error #7002: Error in opening the compiled module file.  Check INCLUDE paths.   [NETCDF]
+2018-09-25 10:40:05,558 - isca - INFO - USE netcdf, ONLY: NF_FILL_REAL => NF90_FILL_REAL
+2018-09-25 10:40:05,558 - isca - INFO - ------^
+2018-09-25 10:40:05,558 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90(726): error #6592: This symbol must be a defined parameter, an enumerator, or an argument of an inquiry function that evaluates to a compile-time constant.   [NF_FILL_REAL]
+2018-09-25 10:40:05,558 - isca - INFO - REAL :: FILL_VALUE = NF_FILL_REAL  ! from file /usr/local/include/netcdf.inc
+2018-09-25 10:40:05,560 - isca - INFO - -----------------------^
+2018-09-25 10:40:05,560 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90(726): error #6973: This is not a valid initialization expression.   [NF_FILL_REAL]
+2018-09-25 10:40:05,560 - isca - INFO - REAL :: FILL_VALUE = NF_FILL_REAL  ! from file /usr/local/include/netcdf.inc
+2018-09-25 10:40:05,560 - isca - INFO - -----------------------^
+2018-09-25 10:40:05,560 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90(179): error #6581: Unresolved rename.   [NF_FILL_REAL]
+2018-09-25 10:40:05,561 - isca - INFO - USE netcdf, ONLY: NF_FILL_REAL => NF90_FILL_REAL
+2018-09-25 10:40:05,561 - isca - INFO - --------------------^
+2018-09-25 10:40:05,565 - isca - INFO - compilation aborted for /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/code/src/shared/diag_manager/diag_data.F90 (code 1)
+2018-09-25 10:40:05,571 - isca - INFO - make: *** [diag_data.o] Error 1
+2018-09-25 10:40:05,571 - isca - INFO - ERROR: mkmf failed for grey_isca.x
+Exception in thread background thread for pid 10581:
+Traceback (most recent call last):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 1540, in wrap
+    fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2459, in background_thread
+    handle_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 2157, in fn
+    return self.command.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/compile.sh
+
+  STDOUT:
+loadmodules for Bluecrystal 4 machines
+
+Currently Loaded Modules:
+  1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+  2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+  3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+  4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+  5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+
+/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+.......................................................................................................................... Makefile is ready.
+mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML ... (2894 more, please see e.stdout)
+
+  STDERR:
+
+
+Traceback (most recent call last):
+  File "grey_mars.py", line 23, in <module>
+    cb.compile()  # compile the source code to working directory $GFDL_WORK/codebase
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 38, in _useworkdir
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 22, in _destructive
+    return fn(*args, **kwargs)
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/codebase.py", line 255, in compile
+    for line in sh.bash(P(self.builddir, 'compile.sh'), _iter=True, _err_to_out=True):
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 863, in next
+    self.wait()
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 792, in wait
+    self.handle_command_exit_code(exit_code)
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 815, in handle_command_exit_code
+    raise exc
+sh.ErrorReturnCode_1: 
+
+  RAN: /usr/bin/bash /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/compile.sh
+
+  STDOUT:
+loadmodules for Bluecrystal 4 machines
+
+Currently Loaded Modules:
+  1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+  2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+  3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+  4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+  5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+
+/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/grey_isca/path_names
+.......................................................................................................................... Makefile is ready.
+mpiifort -Duse_libMPI -Duse_netCDF -Duse_LARGEFILE -DINTERNAL_FILE_NML ... (2894 more, please see e.stdout)
+
+  STDERR:
+
+
+real	0m49.600s
+user	0m2.490s
+sys	0m0.961s

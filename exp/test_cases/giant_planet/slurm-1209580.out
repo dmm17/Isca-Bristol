@@ -1,0 +1,113 @@
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=compute074
+SLURM_JOB_NAME=simple_test
+MANPATH=/mnt/storage/software/languages/anaconda/Anaconda2-5.0.1/share/man:/usr/share/lmod/lmod/share/man:/usr/local/share/man:/usr/share/man:/opt/ddn/ime/share/man:/opt/ddn/ime/share/man
+XDG_SESSION_ID=1206036
+SLURMD_NODENAME=compute074
+SLURM_TOPOLOGY_ADDR=ofacore[01-06].ofaleaf03.compute074
+HOSTNAME=compute074
+_ModuleTable003_=c3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbCIsIi9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwiLCIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbDovbW50L3N0b3JhZ2UvZWFzeWJ1aWxkL21vZHVsZXMvYWxsOi9ldGMv
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+SHELL=/bin/bash
+TERM=xterm-256color
+SLURM_JOB_QOS=normal
+HISTSIZE=1000
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+SSH_CLIENT=137.222.114.245 45347 22
+MODULEPATH_ROOT=/usr/share/modulefiles
+LMOD_DEFAULT_MODULEPATH=/mnt/storage/easybuild/modules/local:/mnt/storage/easybuild/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LMOD_PKG=/usr/share/lmod/lmod
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=6.5.1
+SSH_TTY=/dev/pts/31
+LC_ALL=POSIX
+SLURM_MEM_PER_CPU=1000
+QT_GRAPHICSSYSTEM_CHECKED=1
+SLURM_NNODES=1
+USER=dm16883
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/mnt/storage/software/languages/gcc-7.2.0/lib:/mnt/storage/software/languages/gcc-7.2.0/lib64
+GFDL_WORK=/mnt/storage/home/dm16883/Exo-planets/Model_runs
+SLURM_JOBID=1209580
+_ModuleTable004_=bW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
+LMOD_PREPEND_BLOCK=normal
+SLURM_TASKS_PER_NODE=1
+PATH=/mnt/storage/software/languages/anaconda/Anaconda2-5.0.1/bin:/mnt/storage/software/languages/gcc-7.2.0/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/opt/ddn/ime/bin:/mnt/storage/home/dm16883/.local/bin:/mnt/storage/home/dm16883/bin
+MAIL=/var/spool/mail/dm16883
+GFDL_BASE=/mnt/storage/home/dm16883/Exo-planets/Isca
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MixiYXNlTXBhdGhBPXsiL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2xvY2FsIiwiL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2FsbCIsIi9ldGMvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9Nb2R1bGVzL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJjX3JlYnVpbGRUaW1lIl09ZmFsc2UsWyJjX3Nob3J0VGltZSJdPWZhbHNlLGZhbWlseT17fSxpbmFjdGl2ZT17fSxtVD17YnVpbGQ9e1siRk4i
+GFDL_DATA=/mnt/storage/home/dm16883/Exo-planets/Data
+MAN_PATH=/mnt/storage/software/languages/gcc-7.2.0/share
+SLURM_JOB_ID=1209580
+LMOD_SETTARG_CMD=:
+SLURM_JOB_USER=dm16883
+PWD=/mnt/storage/home/dm16883/Exo-planets/Isca/exp/test_cases/giant_planet
+CUDA_VISIBLE_DEVICES=NoDevFiles
+_LMFILES_=/mnt/storage/easybuild/modules/all/build/gcc-7.2.0.lua:/mnt/storage/easybuild/modules/local/languages/anaconda2/5.0.1.lua
+LANG=en_GB.UTF-8
+MODULEPATH=/mnt/storage/easybuild/modules/local:/mnt/storage/easybuild/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+SLURM_JOB_UID=315814
+_ModuleTable_Sz_=4
+LOADEDMODULES=build/gcc-7.2.0:languages/anaconda2/5.0.1
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/mnt/storage/home/dm16883/Exo-planets/Isca/exp/test_cases/giant_planet
+SLURM_TASK_PID=1647
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+SLURM_CPUS_ON_NODE=1
+HISTIGNORE=opaswitchadmin*:opasaquery*:opaswquery*
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+HISTCONTROL=ignoredups
+SLURM_JOB_NODELIST=compute074
+HOME=/mnt/storage/home/dm16883
+SHLVL=2
+SLURM_LOCALID=0
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_CLUSTER_NAME=bristol_cluster
+_ModuleTable002_=XT0iL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2FsbC9idWlsZC9nY2MtNy4yLjAubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iYnVpbGQvZ2NjLTcuMi4wIixbImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJidWlsZCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsibGFuZ3VhZ2VzL2FuYWNvbmRhMiJdPXtbIkZOIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbC9sYW5ndWFnZXMvYW5hY29uZGEyLzUuMC4xLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09Imxhbmd1YWdlcy9hbmFjb25kYTIvNS4wLjEiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInNob3J0Il09Imxhbmd1YWdlcy9hbmFjb25kYTIiLFsi
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=bc4login1.bc4.acrc.priv
+SLURM_JOB_PARTITION=cpu_test
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+LOGNAME=dm16883
+LMOD_arch=x86_64
+QTLIB=/usr/lib64/qt-3.3/lib
+GPU_DEVICE_ORDINAL=NoDevFiles
+SLURM_JOB_ACCOUNT=default
+SSH_CONNECTION=137.222.114.245 45347 172.26.2.21 22
+LC_CTYPE=POSIX
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/usr/share/lmod/lmod
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LMOD_FULL_SETTARG_SUPPORT=no
+XDG_RUNTIME_DIR=/run/user/315814
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+NO_AT_BRIDGE=1
+LMOD_COLORIZE=yes
+GFDL_ENV=bc4
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/bin/env
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 508004
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 1024000
+open files                      (-n) 51200
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited

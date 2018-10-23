@@ -1,0 +1,120 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-07-04 16:35:53,427 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names'
+2018-07-04 16:35:53,439 - isca - INFO - Running compiler
+2018-07-04 16:35:53,551 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:35:53,709 - isca - INFO - Currently Loaded Modules:
+2018-07-04 16:35:53,710 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:35:53,710 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:35:53,710 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:35:53,710 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:35:53,710 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:35:53,734 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names
+2018-07-04 16:35:54,383 - isca - INFO - ................................................................................................................................................................................................... Makefile is ready.
+2018-07-04 16:35:54,623 - isca - INFO - make: Nothing to be done for `all'.
+2018-07-04 16:35:54,819 - isca - INFO - make: `isca.x' is up to date.
+2018-07-04 16:35:54,824 - isca - INFO - Compilation complete.
+2018-07-04 16:35:54,826 - isca - DEBUG - Making directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3'
+2018-07-04 16:35:54,846 - isca - WARNING - Tried to remove run directory but it doesnt exist
+2018-07-04 16:35:54,854 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run'
+2018-07-04 16:35:54,883 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run'
+2018-07-04 16:35:54,975 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run/input.nml'
+2018-07-04 16:35:54,976 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run/field_table'
+2018-07-04 16:35:54,984 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run/diag_table'
+2018-07-04 16:35:55,084 - isca - INFO - Running without restart file
+2018-07-04 16:35:55,087 - isca - INFO - Beginning run 1
+2018-07-04 16:35:55,092 - isca - INFO - process running as 24093
+2018-07-04 16:35:55,251 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-07-04 16:35:55,425 - isca - DEBUG - 
+2018-07-04 16:35:55,425 - isca - DEBUG - Currently Loaded Modules:
+2018-07-04 16:35:55,425 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:35:55,425 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-07-04 16:35:55,425 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-07-04 16:35:55,425 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-07-04 16:35:55,425 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-07-04 16:35:55,425 - isca - DEBUG - 
+2018-07-04 16:35:56,484 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-07-04 16:35:56,484 - isca - DEBUG - &MPP_IO_NML
+2018-07-04 16:35:56,485 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-07-04 16:35:56,485 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-07-04 16:35:56,486 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-07-04 16:35:56,486 - isca - DEBUG - SHUFFLE =           0,
+2018-07-04 16:35:56,486 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-07-04 16:35:56,486 - isca - DEBUG - /
+2018-07-04 16:35:56,486 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-07-04 16:35:56,487 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-07-04 16:35:56,491 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-07-04 16:35:56,492 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-07-04 16:35:56,492 - isca - DEBUG - X-AXIS =  128
+2018-07-04 16:35:56,492 - isca - DEBUG - Y-AXIS =   16  16  16  16
+2018-07-04 16:35:56,506 - isca - DEBUG - Message from subroutine regularize: lambda=  1.00000000E-07  fraction_smoothed=  3.19581288E-01
+2018-07-04 16:35:56,507 - isca - DEBUG - Message from subroutine regularize: lambda=  2.00000000E-07  fraction_smoothed=  4.40197423E-01
+2018-07-04 16:35:56,510 - isca - DEBUG - Message from subroutine regularize: lambda=  4.98303853E-07  fraction_smoothed=  6.28973369E-01
+2018-07-04 16:35:56,512 - isca - DEBUG - Message from subroutine regularize: lambda=  7.68560230E-07  fraction_smoothed=  7.11621661E-01
+2018-07-04 16:35:56,515 - isca - DEBUG - Message from subroutine regularize: lambda=  1.05755361E-06  fraction_smoothed=  7.64241059E-01
+2018-07-04 16:35:56,518 - isca - DEBUG - Message from subroutine regularize: lambda=  1.25394692E-06  fraction_smoothed=  7.89027663E-01
+2018-07-04 16:35:56,522 - isca - DEBUG - Message from subroutine regularize: lambda=  1.34088475E-06  fraction_smoothed=  7.98148958E-01
+2018-07-04 16:35:56,525 - isca - DEBUG - Message from subroutine regularize: lambda=  1.35852759E-06  fraction_smoothed=  7.99886479E-01
+2018-07-04 16:35:56,528 - isca - DEBUG - Message from subroutine regularize: lambda=  1.35852759E-06  fraction_smoothed=  7.99886479E-01
+2018-07-04 16:35:56,528 - isca - DEBUG - 
+2018-07-04 16:35:56,528 - isca - DEBUG - Message from subroutine get_topography:
+2018-07-04 16:35:56,528 - isca - DEBUG - lambda=  1.35852759E-06  fraction_smoothed=  7.99886479E-01
+2018-07-04 16:35:56,528 - isca - DEBUG - 
+2018-07-04 16:35:56,548 - isca - DEBUG - mean surface pressure= 991.6948 mb
+2018-07-04 16:35:56,563 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Betts-Miller convection scheme.
+2018-07-04 16:35:56,567 - isca - DEBUG - NOTE from PE    0: interpolator_mod :siconc_clim_amip.nc is a year-independent climatology file
+2018-07-04 16:35:56,568 - isca - DEBUG - Initializing src field : siconc_clim_amip
+2018-07-04 16:35:56,588 - isca - DEBUG - NOTE from PE    0: interpolator_mod :ozone_1990.nc is a year-independent climatology file
+2018-07-04 16:35:56,589 - isca - DEBUG - Initializing src field : ozone_1990
+2018-07-04 16:36:32,166 - isca - DEBUG - Integration completed through    1 Jan  2   0: 0: 0
+2018-07-04 16:37:07,236 - isca - DEBUG - Integration completed through    1 Jan  3   0: 0: 0
+2018-07-04 16:37:42,303 - isca - DEBUG - Integration completed through    1 Jan  4   0: 0: 0
+2018-07-04 16:38:17,393 - isca - DEBUG - Integration completed through    1 Jan  5   0: 0: 0
+2018-07-04 16:38:52,510 - isca - DEBUG - Integration completed through    1 Jan  6   0: 0: 0
+2018-07-04 16:39:27,591 - isca - DEBUG - Integration completed through    1 Jan  7   0: 0: 0
+2018-07-04 16:40:02,729 - isca - DEBUG - Integration completed through    1 Jan  8   0: 0: 0
+2018-07-04 16:40:37,299 - isca - DEBUG - Integration completed through    1 Jan  9   0: 0: 0
+2018-07-04 16:41:12,513 - isca - DEBUG - Integration completed through    1 Jan 10   0: 0: 0
+2018-07-04 16:41:47,835 - isca - DEBUG - Integration completed through    1 Jan 11   0: 0: 0
+2018-07-04 16:42:23,249 - isca - DEBUG - Integration completed through    1 Jan 12   0: 0: 0
+2018-07-04 16:42:58,494 - isca - DEBUG - Integration completed through    1 Jan 13   0: 0: 0
+2018-07-04 16:43:33,744 - isca - DEBUG - Integration completed through    1 Jan 14   0: 0: 0
+2018-07-04 16:44:09,051 - isca - DEBUG - Integration completed through    1 Jan 15   0: 0: 0
+2018-07-04 16:44:44,248 - isca - DEBUG - Integration completed through    1 Jan 16   0: 0: 0
+2018-07-04 16:45:19,497 - isca - DEBUG - Integration completed through    1 Jan 17   0: 0: 0
+2018-07-04 16:45:54,828 - isca - DEBUG - Integration completed through    1 Jan 18   0: 0: 0
+2018-07-04 16:46:30,072 - isca - DEBUG - Integration completed through    1 Jan 19   0: 0: 0
+2018-07-04 16:47:05,316 - isca - DEBUG - Integration completed through    1 Jan 20   0: 0: 0
+2018-07-04 16:47:40,633 - isca - DEBUG - Integration completed through    1 Jan 21   0: 0: 0
+2018-07-04 16:48:15,846 - isca - DEBUG - Integration completed through    1 Jan 22   0: 0: 0
+2018-07-04 16:48:51,164 - isca - DEBUG - Integration completed through    1 Jan 23   0: 0: 0
+2018-07-04 16:49:26,454 - isca - DEBUG - Integration completed through    1 Jan 24   0: 0: 0
+2018-07-04 16:50:01,711 - isca - DEBUG - Integration completed through    1 Jan 25   0: 0: 0
+2018-07-04 16:50:36,830 - isca - DEBUG - Integration completed through    1 Jan 26   0: 0: 0
+2018-07-04 16:51:11,972 - isca - DEBUG - Integration completed through    1 Jan 27   0: 0: 0
+2018-07-04 16:51:47,110 - isca - DEBUG - Integration completed through    1 Jan 28   0: 0: 0
+2018-07-04 16:52:22,226 - isca - DEBUG - Integration completed through    1 Jan 29   0: 0: 0
+2018-07-04 16:52:57,214 - isca - DEBUG - Integration completed through    1 Jan 30   0: 0: 0
+2018-07-04 16:53:31,519 - isca - DEBUG - Integration completed through    1 Feb  1   0: 0: 0
+2018-07-04 16:53:31,541 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     327680.
+2018-07-04 16:53:31,636 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=      163840
+2018-07-04 16:53:31,636 - isca - DEBUG - 
+2018-07-04 16:53:31,636 - isca - DEBUG - Tabulating mpp_clock statistics across      4 PEs...
+2018-07-04 16:53:31,636 - isca - DEBUG - 
+2018-07-04 16:53:31,636 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-07-04 16:53:31,637 - isca - DEBUG - Total runtime                      1055.152637   1055.152639   1055.152638      0.000001  1.000     0     0     3
+2018-07-04 16:53:31,637 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-07-04 16:53:31,740 - isca - INFO - Run 1 complete
+2018-07-04 16:53:32,146 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-07-04 16:53:38,057 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment3/restarts/res0001.tar.gz
+2018-07-04 16:53:38,068 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment3/run0001/input.nml'
+2018-07-04 16:53:38,070 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment3/run0001/field_table'
+2018-07-04 16:53:38,079 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/realistic_continents_mixed-layer_test_experiment3/run0001/diag_table'
+2018-07-04 16:53:38,145 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/realistic_continents_mixed-layer_test_experiment3/run'
+
+real	17m45.000s
+user	0m8.997s
+sys	0m0.927s

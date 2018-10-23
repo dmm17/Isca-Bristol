@@ -1,0 +1,726 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+2018-09-25 15:26:50,267 - isca - INFO - Writing path_names to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names'
+2018-09-25 15:26:50,274 - isca - INFO - Running compiler
+2018-09-25 15:26:50,404 - isca - INFO - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:26:50,569 - isca - INFO - Currently Loaded Modules:
+2018-09-25 15:26:50,569 - isca - INFO - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:26:50,569 - isca - INFO - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:26:50,569 - isca - INFO - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:26:50,569 - isca - INFO - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:26:50,569 - isca - INFO - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:26:50,593 - isca - INFO - /mnt/storage/home/dm16883/Exo-planets/Model_runs/codebase/_mnt_storage_home_dm16883_Exo-planets_Isca/build/isca/path_names
+2018-09-25 15:26:51,248 - isca - INFO - ................................................................................................................................................................................................... Makefile is ready.
+2018-09-25 15:26:51,447 - isca - INFO - make: Nothing to be done for `all'.
+2018-09-25 15:26:51,641 - isca - INFO - make: `isca.x' is up to date.
+2018-09-25 15:26:51,647 - isca - INFO - Compilation complete.
+2018-09-25 15:26:51,664 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:26:51,680 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:26:51,746 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:26:51,747 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:26:51,755 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:26:51,756 - isca - INFO - Running without restart file
+2018-09-25 15:26:51,759 - isca - INFO - Beginning run 1
+2018-09-25 15:26:51,762 - isca - INFO - process running as 8092
+2018-09-25 15:26:51,860 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:26:52,021 - isca - DEBUG - 
+2018-09-25 15:26:52,021 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:26:52,021 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:26:52,022 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:26:52,022 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:26:52,022 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:26:52,022 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:26:52,022 - isca - DEBUG - 
+2018-09-25 15:26:52,190 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:26:52,190 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:26:52,190 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:26:52,190 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:26:52,190 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:26:52,190 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:26:52,190 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:26:52,190 - isca - DEBUG - /
+2018-09-25 15:26:52,192 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:26:52,193 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:26:52,197 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:26:52,198 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:26:52,198 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:26:52,198 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:26:52,213 - isca - DEBUG - mean surface pressure=1000.0000 mb
+2018-09-25 15:26:52,224 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:26:52,228 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:26:55,268 - isca - DEBUG - Integration completed through    1 Jan  2   0: 0: 0
+2018-09-25 15:26:58,303 - isca - DEBUG - Integration completed through    1 Jan  3   0: 0: 0
+2018-09-25 15:27:01,338 - isca - DEBUG - Integration completed through    1 Jan  4   0: 0: 0
+2018-09-25 15:27:04,370 - isca - DEBUG - Integration completed through    1 Jan  5   0: 0: 0
+2018-09-25 15:27:07,407 - isca - DEBUG - Integration completed through    1 Jan  6   0: 0: 0
+2018-09-25 15:27:10,428 - isca - DEBUG - Integration completed through    1 Jan  7   0: 0: 0
+2018-09-25 15:27:13,434 - isca - DEBUG - Integration completed through    1 Jan  8   0: 0: 0
+2018-09-25 15:27:16,431 - isca - DEBUG - Integration completed through    1 Jan  9   0: 0: 0
+2018-09-25 15:27:19,423 - isca - DEBUG - Integration completed through    1 Jan 10   0: 0: 0
+2018-09-25 15:27:22,423 - isca - DEBUG - Integration completed through    1 Jan 11   0: 0: 0
+2018-09-25 15:27:25,432 - isca - DEBUG - Integration completed through    1 Jan 12   0: 0: 0
+2018-09-25 15:27:28,441 - isca - DEBUG - Integration completed through    1 Jan 13   0: 0: 0
+2018-09-25 15:27:31,451 - isca - DEBUG - Integration completed through    1 Jan 14   0: 0: 0
+2018-09-25 15:27:34,461 - isca - DEBUG - Integration completed through    1 Jan 15   0: 0: 0
+2018-09-25 15:27:37,473 - isca - DEBUG - Integration completed through    1 Jan 16   0: 0: 0
+2018-09-25 15:27:40,492 - isca - DEBUG - Integration completed through    1 Jan 17   0: 0: 0
+2018-09-25 15:27:43,511 - isca - DEBUG - Integration completed through    1 Jan 18   0: 0: 0
+2018-09-25 15:27:46,527 - isca - DEBUG - Integration completed through    1 Jan 19   0: 0: 0
+2018-09-25 15:27:49,541 - isca - DEBUG - Integration completed through    1 Jan 20   0: 0: 0
+2018-09-25 15:27:52,557 - isca - DEBUG - Integration completed through    1 Jan 21   0: 0: 0
+2018-09-25 15:27:55,570 - isca - DEBUG - Integration completed through    1 Jan 22   0: 0: 0
+2018-09-25 15:27:58,585 - isca - DEBUG - Integration completed through    1 Jan 23   0: 0: 0
+2018-09-25 15:28:01,594 - isca - DEBUG - Integration completed through    1 Jan 24   0: 0: 0
+2018-09-25 15:28:04,601 - isca - DEBUG - Integration completed through    1 Jan 25   0: 0: 0
+2018-09-25 15:28:07,606 - isca - DEBUG - Integration completed through    1 Jan 26   0: 0: 0
+2018-09-25 15:28:10,611 - isca - DEBUG - Integration completed through    1 Jan 27   0: 0: 0
+2018-09-25 15:28:13,612 - isca - DEBUG - Integration completed through    1 Jan 28   0: 0: 0
+2018-09-25 15:28:16,612 - isca - DEBUG - Integration completed through    1 Jan 29   0: 0: 0
+2018-09-25 15:28:19,612 - isca - DEBUG - Integration completed through    1 Jan 30   0: 0: 0
+2018-09-25 15:28:22,610 - isca - DEBUG - Integration completed through    1 Feb  1   0: 0: 0
+2018-09-25 15:28:22,635 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:28:22,706 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:28:22,706 - isca - DEBUG - 
+2018-09-25 15:28:22,706 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:28:22,706 - isca - DEBUG - 
+2018-09-25 15:28:22,706 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:28:22,706 - isca - DEBUG - Total runtime                        90.516320     90.516321     90.516321      0.000000  1.000     0     0     7
+2018-09-25 15:28:22,706 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:28:22,779 - isca - INFO - Run 1 complete
+2018-09-25 15:28:23,181 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:28:26,513 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0001.tar.gz
+2018-09-25 15:28:26,523 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0001/input.nml'
+2018-09-25 15:28:26,526 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0001/field_table'
+2018-09-25 15:28:26,534 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0001/diag_table'
+2018-09-25 15:28:26,610 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:28:26,625 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:28:26,679 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:28:26,681 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:28:26,689 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:28:26,689 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0001.tar.gz'
+2018-09-25 15:28:26,949 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0001.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:28:26,949 - isca - INFO - Beginning run 2
+2018-09-25 15:28:26,954 - isca - INFO - process running as 8265
+2018-09-25 15:28:27,054 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:28:27,217 - isca - DEBUG - 
+2018-09-25 15:28:27,217 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:28:27,217 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:28:27,217 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:28:27,217 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:28:27,218 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:28:27,218 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:28:27,218 - isca - DEBUG - 
+2018-09-25 15:28:27,383 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:28:27,384 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:28:27,384 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:28:27,384 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:28:27,384 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:28:27,384 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:28:27,384 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:28:27,384 - isca - DEBUG - /
+2018-09-25 15:28:27,384 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:28:27,387 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:28:27,390 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:28:27,391 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:28:27,391 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:28:27,391 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:28:27,434 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:28:27,437 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:28:30,372 - isca - DEBUG - Integration completed through    1 Feb  2   0: 0: 0
+2018-09-25 15:28:33,293 - isca - DEBUG - Integration completed through    1 Feb  3   0: 0: 0
+2018-09-25 15:28:36,215 - isca - DEBUG - Integration completed through    1 Feb  4   0: 0: 0
+2018-09-25 15:28:39,131 - isca - DEBUG - Integration completed through    1 Feb  5   0: 0: 0
+2018-09-25 15:28:42,055 - isca - DEBUG - Integration completed through    1 Feb  6   0: 0: 0
+2018-09-25 15:28:44,962 - isca - DEBUG - Integration completed through    1 Feb  7   0: 0: 0
+2018-09-25 15:28:47,867 - isca - DEBUG - Integration completed through    1 Feb  8   0: 0: 0
+2018-09-25 15:28:50,787 - isca - DEBUG - Integration completed through    1 Feb  9   0: 0: 0
+2018-09-25 15:28:53,698 - isca - DEBUG - Integration completed through    1 Feb 10   0: 0: 0
+2018-09-25 15:28:56,608 - isca - DEBUG - Integration completed through    1 Feb 11   0: 0: 0
+2018-09-25 15:28:59,510 - isca - DEBUG - Integration completed through    1 Feb 12   0: 0: 0
+2018-09-25 15:29:02,414 - isca - DEBUG - Integration completed through    1 Feb 13   0: 0: 0
+2018-09-25 15:29:05,331 - isca - DEBUG - Integration completed through    1 Feb 14   0: 0: 0
+2018-09-25 15:29:08,239 - isca - DEBUG - Integration completed through    1 Feb 15   0: 0: 0
+2018-09-25 15:29:11,145 - isca - DEBUG - Integration completed through    1 Feb 16   0: 0: 0
+2018-09-25 15:29:14,059 - isca - DEBUG - Integration completed through    1 Feb 17   0: 0: 0
+2018-09-25 15:29:16,980 - isca - DEBUG - Integration completed through    1 Feb 18   0: 0: 0
+2018-09-25 15:29:19,902 - isca - DEBUG - Integration completed through    1 Feb 19   0: 0: 0
+2018-09-25 15:29:22,813 - isca - DEBUG - Integration completed through    1 Feb 20   0: 0: 0
+2018-09-25 15:29:25,720 - isca - DEBUG - Integration completed through    1 Feb 21   0: 0: 0
+2018-09-25 15:29:28,629 - isca - DEBUG - Integration completed through    1 Feb 22   0: 0: 0
+2018-09-25 15:29:31,547 - isca - DEBUG - Integration completed through    1 Feb 23   0: 0: 0
+2018-09-25 15:29:34,475 - isca - DEBUG - Integration completed through    1 Feb 24   0: 0: 0
+2018-09-25 15:29:37,387 - isca - DEBUG - Integration completed through    1 Feb 25   0: 0: 0
+2018-09-25 15:29:40,297 - isca - DEBUG - Integration completed through    1 Feb 26   0: 0: 0
+2018-09-25 15:29:43,208 - isca - DEBUG - Integration completed through    1 Feb 27   0: 0: 0
+2018-09-25 15:29:46,134 - isca - DEBUG - Integration completed through    1 Feb 28   0: 0: 0
+2018-09-25 15:29:49,055 - isca - DEBUG - Integration completed through    1 Feb 29   0: 0: 0
+2018-09-25 15:29:51,969 - isca - DEBUG - Integration completed through    1 Feb 30   0: 0: 0
+2018-09-25 15:29:54,883 - isca - DEBUG - Integration completed through    1 Mar  1   0: 0: 0
+2018-09-25 15:29:54,896 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:29:54,968 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:29:54,969 - isca - DEBUG - 
+2018-09-25 15:29:54,969 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:29:54,969 - isca - DEBUG - 
+2018-09-25 15:29:54,969 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:29:54,969 - isca - DEBUG - Total runtime                        87.585424     87.585427     87.585426      0.000001  1.000     0     0     7
+2018-09-25 15:29:54,969 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:29:54,993 - isca - INFO - Run 2 complete
+2018-09-25 15:29:55,337 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:29:58,027 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0002.tar.gz
+2018-09-25 15:29:58,037 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0002/input.nml'
+2018-09-25 15:29:58,039 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0002/field_table'
+2018-09-25 15:29:58,047 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0002/diag_table'
+2018-09-25 15:29:58,124 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:29:58,139 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:29:58,194 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:29:58,195 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:29:58,203 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:29:58,204 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0002.tar.gz'
+2018-09-25 15:29:58,467 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0002.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:29:58,468 - isca - INFO - Beginning run 3
+2018-09-25 15:29:58,474 - isca - INFO - process running as 8460
+2018-09-25 15:29:58,575 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:29:58,736 - isca - DEBUG - 
+2018-09-25 15:29:58,736 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:29:58,736 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:29:58,736 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:29:58,736 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:29:58,736 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:29:58,736 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:29:58,736 - isca - DEBUG - 
+2018-09-25 15:29:58,903 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:29:58,903 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:29:58,903 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:29:58,903 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:29:58,903 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:29:58,903 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:29:58,903 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:29:58,903 - isca - DEBUG - /
+2018-09-25 15:29:58,903 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:29:58,907 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:29:58,910 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:29:58,911 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:29:58,911 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:29:58,911 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:29:58,950 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:29:58,953 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:30:01,966 - isca - DEBUG - Integration completed through    1 Mar  2   0: 0: 0
+2018-09-25 15:30:04,972 - isca - DEBUG - Integration completed through    1 Mar  3   0: 0: 0
+2018-09-25 15:30:07,981 - isca - DEBUG - Integration completed through    1 Mar  4   0: 0: 0
+2018-09-25 15:30:10,982 - isca - DEBUG - Integration completed through    1 Mar  5   0: 0: 0
+2018-09-25 15:30:13,994 - isca - DEBUG - Integration completed through    1 Mar  6   0: 0: 0
+2018-09-25 15:30:16,995 - isca - DEBUG - Integration completed through    1 Mar  7   0: 0: 0
+2018-09-25 15:30:20,003 - isca - DEBUG - Integration completed through    1 Mar  8   0: 0: 0
+2018-09-25 15:30:23,017 - isca - DEBUG - Integration completed through    1 Mar  9   0: 0: 0
+2018-09-25 15:30:26,021 - isca - DEBUG - Integration completed through    1 Mar 10   0: 0: 0
+2018-09-25 15:30:29,023 - isca - DEBUG - Integration completed through    1 Mar 11   0: 0: 0
+2018-09-25 15:30:32,027 - isca - DEBUG - Integration completed through    1 Mar 12   0: 0: 0
+2018-09-25 15:30:35,037 - isca - DEBUG - Integration completed through    1 Mar 13   0: 0: 0
+2018-09-25 15:30:38,045 - isca - DEBUG - Integration completed through    1 Mar 14   0: 0: 0
+2018-09-25 15:30:41,046 - isca - DEBUG - Integration completed through    1 Mar 15   0: 0: 0
+2018-09-25 15:30:44,045 - isca - DEBUG - Integration completed through    1 Mar 16   0: 0: 0
+2018-09-25 15:30:47,042 - isca - DEBUG - Integration completed through    1 Mar 17   0: 0: 0
+2018-09-25 15:30:50,042 - isca - DEBUG - Integration completed through    1 Mar 18   0: 0: 0
+2018-09-25 15:30:53,042 - isca - DEBUG - Integration completed through    1 Mar 19   0: 0: 0
+2018-09-25 15:30:56,041 - isca - DEBUG - Integration completed through    1 Mar 20   0: 0: 0
+2018-09-25 15:30:59,039 - isca - DEBUG - Integration completed through    1 Mar 21   0: 0: 0
+2018-09-25 15:31:02,039 - isca - DEBUG - Integration completed through    1 Mar 22   0: 0: 0
+2018-09-25 15:31:05,045 - isca - DEBUG - Integration completed through    1 Mar 23   0: 0: 0
+2018-09-25 15:31:08,043 - isca - DEBUG - Integration completed through    1 Mar 24   0: 0: 0
+2018-09-25 15:31:11,041 - isca - DEBUG - Integration completed through    1 Mar 25   0: 0: 0
+2018-09-25 15:31:14,041 - isca - DEBUG - Integration completed through    1 Mar 26   0: 0: 0
+2018-09-25 15:31:17,043 - isca - DEBUG - Integration completed through    1 Mar 27   0: 0: 0
+2018-09-25 15:31:20,046 - isca - DEBUG - Integration completed through    1 Mar 28   0: 0: 0
+2018-09-25 15:31:23,047 - isca - DEBUG - Integration completed through    1 Mar 29   0: 0: 0
+2018-09-25 15:31:26,049 - isca - DEBUG - Integration completed through    1 Mar 30   0: 0: 0
+2018-09-25 15:31:29,050 - isca - DEBUG - Integration completed through    1 Apr  1   0: 0: 0
+2018-09-25 15:31:29,062 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:31:29,149 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:31:29,149 - isca - DEBUG - 
+2018-09-25 15:31:29,149 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:31:29,149 - isca - DEBUG - 
+2018-09-25 15:31:29,149 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:31:29,149 - isca - DEBUG - Total runtime                        90.246274     90.246274     90.246274      0.000000  1.000     0     0     7
+2018-09-25 15:31:29,149 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:31:29,190 - isca - INFO - Run 3 complete
+2018-09-25 15:31:29,531 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:31:32,010 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0003.tar.gz
+2018-09-25 15:31:32,019 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0003/input.nml'
+2018-09-25 15:31:32,021 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0003/field_table'
+2018-09-25 15:31:32,029 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0003/diag_table'
+2018-09-25 15:31:32,104 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:31:32,119 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:31:32,173 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:31:32,174 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:31:32,182 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:31:32,182 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0003.tar.gz'
+2018-09-25 15:31:32,454 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0003.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:31:32,455 - isca - INFO - Beginning run 4
+2018-09-25 15:31:32,460 - isca - INFO - process running as 8655
+2018-09-25 15:31:32,560 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:31:32,721 - isca - DEBUG - 
+2018-09-25 15:31:32,721 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:31:32,721 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:31:32,721 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:31:32,721 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:31:32,721 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:31:32,721 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:31:32,721 - isca - DEBUG - 
+2018-09-25 15:31:32,883 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:31:32,883 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:31:32,883 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:31:32,883 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:31:32,883 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:31:32,883 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:31:32,884 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:31:32,884 - isca - DEBUG - /
+2018-09-25 15:31:32,884 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:31:32,887 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:31:32,890 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:31:32,891 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:31:32,891 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:31:32,891 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:31:32,929 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:31:32,932 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:31:35,956 - isca - DEBUG - Integration completed through    1 Apr  2   0: 0: 0
+2018-09-25 15:31:38,972 - isca - DEBUG - Integration completed through    1 Apr  3   0: 0: 0
+2018-09-25 15:31:41,992 - isca - DEBUG - Integration completed through    1 Apr  4   0: 0: 0
+2018-09-25 15:31:45,008 - isca - DEBUG - Integration completed through    1 Apr  5   0: 0: 0
+2018-09-25 15:31:48,030 - isca - DEBUG - Integration completed through    1 Apr  6   0: 0: 0
+2018-09-25 15:31:51,048 - isca - DEBUG - Integration completed through    1 Apr  7   0: 0: 0
+2018-09-25 15:31:54,071 - isca - DEBUG - Integration completed through    1 Apr  8   0: 0: 0
+2018-09-25 15:31:57,096 - isca - DEBUG - Integration completed through    1 Apr  9   0: 0: 0
+2018-09-25 15:32:00,117 - isca - DEBUG - Integration completed through    1 Apr 10   0: 0: 0
+2018-09-25 15:32:03,135 - isca - DEBUG - Integration completed through    1 Apr 11   0: 0: 0
+2018-09-25 15:32:06,149 - isca - DEBUG - Integration completed through    1 Apr 12   0: 0: 0
+2018-09-25 15:32:09,166 - isca - DEBUG - Integration completed through    1 Apr 13   0: 0: 0
+2018-09-25 15:32:12,176 - isca - DEBUG - Integration completed through    1 Apr 14   0: 0: 0
+2018-09-25 15:32:15,194 - isca - DEBUG - Integration completed through    1 Apr 15   0: 0: 0
+2018-09-25 15:32:18,222 - isca - DEBUG - Integration completed through    1 Apr 16   0: 0: 0
+2018-09-25 15:32:21,247 - isca - DEBUG - Integration completed through    1 Apr 17   0: 0: 0
+2018-09-25 15:32:24,262 - isca - DEBUG - Integration completed through    1 Apr 18   0: 0: 0
+2018-09-25 15:32:27,270 - isca - DEBUG - Integration completed through    1 Apr 19   0: 0: 0
+2018-09-25 15:32:30,280 - isca - DEBUG - Integration completed through    1 Apr 20   0: 0: 0
+2018-09-25 15:32:33,293 - isca - DEBUG - Integration completed through    1 Apr 21   0: 0: 0
+2018-09-25 15:32:36,303 - isca - DEBUG - Integration completed through    1 Apr 22   0: 0: 0
+2018-09-25 15:32:39,309 - isca - DEBUG - Integration completed through    1 Apr 23   0: 0: 0
+2018-09-25 15:32:42,310 - isca - DEBUG - Integration completed through    1 Apr 24   0: 0: 0
+2018-09-25 15:32:45,312 - isca - DEBUG - Integration completed through    1 Apr 25   0: 0: 0
+2018-09-25 15:32:48,313 - isca - DEBUG - Integration completed through    1 Apr 26   0: 0: 0
+2018-09-25 15:32:51,315 - isca - DEBUG - Integration completed through    1 Apr 27   0: 0: 0
+2018-09-25 15:32:54,322 - isca - DEBUG - Integration completed through    1 Apr 28   0: 0: 0
+2018-09-25 15:32:57,329 - isca - DEBUG - Integration completed through    1 Apr 29   0: 0: 0
+2018-09-25 15:33:00,333 - isca - DEBUG - Integration completed through    1 Apr 30   0: 0: 0
+2018-09-25 15:33:03,340 - isca - DEBUG - Integration completed through    1 May  1   0: 0: 0
+2018-09-25 15:33:03,352 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:33:03,604 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:33:03,604 - isca - DEBUG - 
+2018-09-25 15:33:03,604 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:33:03,604 - isca - DEBUG - 
+2018-09-25 15:33:03,604 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:33:03,604 - isca - DEBUG - Total runtime                        90.721130     90.721133     90.721131      0.000001  1.000     0     0     7
+2018-09-25 15:33:03,604 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:33:03,680 - isca - INFO - Run 4 complete
+2018-09-25 15:33:04,025 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:33:06,377 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0004.tar.gz
+2018-09-25 15:33:06,386 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0004/input.nml'
+2018-09-25 15:33:06,388 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0004/field_table'
+2018-09-25 15:33:06,397 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0004/diag_table'
+2018-09-25 15:33:06,468 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:33:06,482 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:33:06,535 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:33:06,536 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:33:06,544 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:33:06,545 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0004.tar.gz'
+2018-09-25 15:33:06,820 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0004.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:33:06,821 - isca - INFO - Beginning run 5
+2018-09-25 15:33:06,826 - isca - INFO - process running as 8838
+2018-09-25 15:33:06,927 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:33:07,092 - isca - DEBUG - 
+2018-09-25 15:33:07,092 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:33:07,092 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:33:07,092 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:33:07,092 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:33:07,092 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:33:07,092 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:33:07,092 - isca - DEBUG - 
+2018-09-25 15:33:07,254 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:33:07,254 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:33:07,254 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:33:07,254 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:33:07,254 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:33:07,254 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:33:07,254 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:33:07,254 - isca - DEBUG - /
+2018-09-25 15:33:07,255 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:33:07,258 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:33:07,261 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:33:07,262 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:33:07,262 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:33:07,262 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:33:07,310 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:33:07,313 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:33:10,246 - isca - DEBUG - Integration completed through    1 May  2   0: 0: 0
+2018-09-25 15:33:13,170 - isca - DEBUG - Integration completed through    1 May  3   0: 0: 0
+2018-09-25 15:33:16,101 - isca - DEBUG - Integration completed through    1 May  4   0: 0: 0
+2018-09-25 15:33:19,015 - isca - DEBUG - Integration completed through    1 May  5   0: 0: 0
+2018-09-25 15:33:21,939 - isca - DEBUG - Integration completed through    1 May  6   0: 0: 0
+2018-09-25 15:33:24,855 - isca - DEBUG - Integration completed through    1 May  7   0: 0: 0
+2018-09-25 15:33:27,770 - isca - DEBUG - Integration completed through    1 May  8   0: 0: 0
+2018-09-25 15:33:30,684 - isca - DEBUG - Integration completed through    1 May  9   0: 0: 0
+2018-09-25 15:33:33,593 - isca - DEBUG - Integration completed through    1 May 10   0: 0: 0
+2018-09-25 15:33:36,507 - isca - DEBUG - Integration completed through    1 May 11   0: 0: 0
+2018-09-25 15:33:39,417 - isca - DEBUG - Integration completed through    1 May 12   0: 0: 0
+2018-09-25 15:33:42,337 - isca - DEBUG - Integration completed through    1 May 13   0: 0: 0
+2018-09-25 15:33:45,258 - isca - DEBUG - Integration completed through    1 May 14   0: 0: 0
+2018-09-25 15:33:48,178 - isca - DEBUG - Integration completed through    1 May 15   0: 0: 0
+2018-09-25 15:33:51,103 - isca - DEBUG - Integration completed through    1 May 16   0: 0: 0
+2018-09-25 15:33:54,030 - isca - DEBUG - Integration completed through    1 May 17   0: 0: 0
+2018-09-25 15:33:56,952 - isca - DEBUG - Integration completed through    1 May 18   0: 0: 0
+2018-09-25 15:33:59,873 - isca - DEBUG - Integration completed through    1 May 19   0: 0: 0
+2018-09-25 15:34:02,804 - isca - DEBUG - Integration completed through    1 May 20   0: 0: 0
+2018-09-25 15:34:05,735 - isca - DEBUG - Integration completed through    1 May 21   0: 0: 0
+2018-09-25 15:34:08,657 - isca - DEBUG - Integration completed through    1 May 22   0: 0: 0
+2018-09-25 15:34:11,575 - isca - DEBUG - Integration completed through    1 May 23   0: 0: 0
+2018-09-25 15:34:14,492 - isca - DEBUG - Integration completed through    1 May 24   0: 0: 0
+2018-09-25 15:34:17,410 - isca - DEBUG - Integration completed through    1 May 25   0: 0: 0
+2018-09-25 15:34:20,325 - isca - DEBUG - Integration completed through    1 May 26   0: 0: 0
+2018-09-25 15:34:23,242 - isca - DEBUG - Integration completed through    1 May 27   0: 0: 0
+2018-09-25 15:34:26,159 - isca - DEBUG - Integration completed through    1 May 28   0: 0: 0
+2018-09-25 15:34:29,078 - isca - DEBUG - Integration completed through    1 May 29   0: 0: 0
+2018-09-25 15:34:31,998 - isca - DEBUG - Integration completed through    1 May 30   0: 0: 0
+2018-09-25 15:34:34,929 - isca - DEBUG - Integration completed through    1 Jun  1   0: 0: 0
+2018-09-25 15:34:34,941 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:34:35,014 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:34:35,014 - isca - DEBUG - 
+2018-09-25 15:34:35,014 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:34:35,014 - isca - DEBUG - 
+2018-09-25 15:34:35,014 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:34:35,014 - isca - DEBUG - Total runtime                        87.760350     87.760350     87.760350      0.000000  1.000     0     0     7
+2018-09-25 15:34:35,014 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:34:35,140 - isca - INFO - Run 5 complete
+2018-09-25 15:34:35,486 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:34:37,640 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0005.tar.gz
+2018-09-25 15:34:37,650 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0005/input.nml'
+2018-09-25 15:34:37,651 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0005/field_table'
+2018-09-25 15:34:37,660 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0005/diag_table'
+2018-09-25 15:34:37,731 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:34:37,746 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:34:37,799 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:34:37,800 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:34:37,808 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:34:37,808 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0005.tar.gz'
+2018-09-25 15:34:38,069 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0005.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:34:38,070 - isca - INFO - Beginning run 6
+2018-09-25 15:34:38,075 - isca - INFO - process running as 9041
+2018-09-25 15:34:38,173 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:34:38,333 - isca - DEBUG - 
+2018-09-25 15:34:38,333 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:34:38,333 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:34:38,333 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:34:38,333 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:34:38,333 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:34:38,333 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:34:38,333 - isca - DEBUG - 
+2018-09-25 15:34:38,494 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:34:38,494 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:34:38,494 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:34:38,494 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:34:38,494 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:34:38,494 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:34:38,494 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:34:38,494 - isca - DEBUG - /
+2018-09-25 15:34:38,495 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:34:38,498 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:34:38,501 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:34:38,502 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:34:38,502 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:34:38,502 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:34:38,538 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:34:38,542 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:34:41,546 - isca - DEBUG - Integration completed through    1 Jun  2   0: 0: 0
+2018-09-25 15:34:44,544 - isca - DEBUG - Integration completed through    1 Jun  3   0: 0: 0
+2018-09-25 15:34:47,540 - isca - DEBUG - Integration completed through    1 Jun  4   0: 0: 0
+2018-09-25 15:34:50,532 - isca - DEBUG - Integration completed through    1 Jun  5   0: 0: 0
+2018-09-25 15:34:53,535 - isca - DEBUG - Integration completed through    1 Jun  6   0: 0: 0
+2018-09-25 15:34:56,530 - isca - DEBUG - Integration completed through    1 Jun  7   0: 0: 0
+2018-09-25 15:34:59,526 - isca - DEBUG - Integration completed through    1 Jun  8   0: 0: 0
+2018-09-25 15:35:02,529 - isca - DEBUG - Integration completed through    1 Jun  9   0: 0: 0
+2018-09-25 15:35:05,532 - isca - DEBUG - Integration completed through    1 Jun 10   0: 0: 0
+2018-09-25 15:35:08,526 - isca - DEBUG - Integration completed through    1 Jun 11   0: 0: 0
+2018-09-25 15:35:11,515 - isca - DEBUG - Integration completed through    1 Jun 12   0: 0: 0
+2018-09-25 15:35:14,516 - isca - DEBUG - Integration completed through    1 Jun 13   0: 0: 0
+2018-09-25 15:35:17,509 - isca - DEBUG - Integration completed through    1 Jun 14   0: 0: 0
+2018-09-25 15:35:20,501 - isca - DEBUG - Integration completed through    1 Jun 15   0: 0: 0
+2018-09-25 15:35:23,500 - isca - DEBUG - Integration completed through    1 Jun 16   0: 0: 0
+2018-09-25 15:35:26,496 - isca - DEBUG - Integration completed through    1 Jun 17   0: 0: 0
+2018-09-25 15:35:29,492 - isca - DEBUG - Integration completed through    1 Jun 18   0: 0: 0
+2018-09-25 15:35:32,485 - isca - DEBUG - Integration completed through    1 Jun 19   0: 0: 0
+2018-09-25 15:35:35,481 - isca - DEBUG - Integration completed through    1 Jun 20   0: 0: 0
+2018-09-25 15:35:38,483 - isca - DEBUG - Integration completed through    1 Jun 21   0: 0: 0
+2018-09-25 15:35:41,475 - isca - DEBUG - Integration completed through    1 Jun 22   0: 0: 0
+2018-09-25 15:35:44,471 - isca - DEBUG - Integration completed through    1 Jun 23   0: 0: 0
+2018-09-25 15:35:47,469 - isca - DEBUG - Integration completed through    1 Jun 24   0: 0: 0
+2018-09-25 15:35:50,461 - isca - DEBUG - Integration completed through    1 Jun 25   0: 0: 0
+2018-09-25 15:35:53,452 - isca - DEBUG - Integration completed through    1 Jun 26   0: 0: 0
+2018-09-25 15:35:56,445 - isca - DEBUG - Integration completed through    1 Jun 27   0: 0: 0
+2018-09-25 15:35:59,439 - isca - DEBUG - Integration completed through    1 Jun 28   0: 0: 0
+2018-09-25 15:36:02,435 - isca - DEBUG - Integration completed through    1 Jun 29   0: 0: 0
+2018-09-25 15:36:05,429 - isca - DEBUG - Integration completed through    1 Jun 30   0: 0: 0
+2018-09-25 15:36:08,428 - isca - DEBUG - Integration completed through    1 Jul  1   0: 0: 0
+2018-09-25 15:36:08,439 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:36:08,514 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:36:08,514 - isca - DEBUG - 
+2018-09-25 15:36:08,514 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:36:08,514 - isca - DEBUG - 
+2018-09-25 15:36:08,514 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:36:08,514 - isca - DEBUG - Total runtime                        90.020535     90.020537     90.020536      0.000001  1.000     0     0     7
+2018-09-25 15:36:08,514 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:36:08,590 - isca - INFO - Run 6 complete
+2018-09-25 15:36:08,933 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:36:11,028 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0006.tar.gz
+2018-09-25 15:36:11,037 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0006/input.nml'
+2018-09-25 15:36:11,039 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0006/field_table'
+2018-09-25 15:36:11,047 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0006/diag_table'
+2018-09-25 15:36:11,118 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:36:11,134 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:36:11,186 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:36:11,187 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:36:11,195 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:36:11,196 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0006.tar.gz'
+2018-09-25 15:36:11,457 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0006.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:36:11,458 - isca - INFO - Beginning run 7
+2018-09-25 15:36:11,462 - isca - INFO - process running as 9230
+2018-09-25 15:36:11,561 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:36:11,722 - isca - DEBUG - 
+2018-09-25 15:36:11,722 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:36:11,722 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:36:11,723 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:36:11,723 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:36:11,723 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:36:11,723 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:36:11,723 - isca - DEBUG - 
+2018-09-25 15:36:11,886 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:36:11,886 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:36:11,886 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:36:11,886 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:36:11,886 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:36:11,886 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:36:11,886 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:36:11,886 - isca - DEBUG - /
+2018-09-25 15:36:11,886 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:36:11,889 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:36:11,893 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:36:11,893 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:36:11,893 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:36:11,893 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:36:11,937 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:36:11,941 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:36:14,883 - isca - DEBUG - Integration completed through    1 Jul  2   0: 0: 0
+2018-09-25 15:36:17,812 - isca - DEBUG - Integration completed through    1 Jul  3   0: 0: 0
+2018-09-25 15:36:20,745 - isca - DEBUG - Integration completed through    1 Jul  4   0: 0: 0
+2018-09-25 15:36:23,667 - isca - DEBUG - Integration completed through    1 Jul  5   0: 0: 0
+2018-09-25 15:36:26,598 - isca - DEBUG - Integration completed through    1 Jul  6   0: 0: 0
+2018-09-25 15:36:29,518 - isca - DEBUG - Integration completed through    1 Jul  7   0: 0: 0
+2018-09-25 15:36:32,446 - isca - DEBUG - Integration completed through    1 Jul  8   0: 0: 0
+2018-09-25 15:36:35,370 - isca - DEBUG - Integration completed through    1 Jul  9   0: 0: 0
+2018-09-25 15:36:38,296 - isca - DEBUG - Integration completed through    1 Jul 10   0: 0: 0
+2018-09-25 15:36:41,222 - isca - DEBUG - Integration completed through    1 Jul 11   0: 0: 0
+2018-09-25 15:36:44,150 - isca - DEBUG - Integration completed through    1 Jul 12   0: 0: 0
+2018-09-25 15:36:47,084 - isca - DEBUG - Integration completed through    1 Jul 13   0: 0: 0
+2018-09-25 15:36:50,009 - isca - DEBUG - Integration completed through    1 Jul 14   0: 0: 0
+2018-09-25 15:36:52,931 - isca - DEBUG - Integration completed through    1 Jul 15   0: 0: 0
+2018-09-25 15:36:55,858 - isca - DEBUG - Integration completed through    1 Jul 16   0: 0: 0
+2018-09-25 15:36:58,782 - isca - DEBUG - Integration completed through    1 Jul 17   0: 0: 0
+2018-09-25 15:37:01,704 - isca - DEBUG - Integration completed through    1 Jul 18   0: 0: 0
+2018-09-25 15:37:04,627 - isca - DEBUG - Integration completed through    1 Jul 19   0: 0: 0
+2018-09-25 15:37:07,555 - isca - DEBUG - Integration completed through    1 Jul 20   0: 0: 0
+2018-09-25 15:37:10,475 - isca - DEBUG - Integration completed through    1 Jul 21   0: 0: 0
+2018-09-25 15:37:13,396 - isca - DEBUG - Integration completed through    1 Jul 22   0: 0: 0
+2018-09-25 15:37:16,313 - isca - DEBUG - Integration completed through    1 Jul 23   0: 0: 0
+2018-09-25 15:37:19,228 - isca - DEBUG - Integration completed through    1 Jul 24   0: 0: 0
+2018-09-25 15:37:22,145 - isca - DEBUG - Integration completed through    1 Jul 25   0: 0: 0
+2018-09-25 15:37:25,067 - isca - DEBUG - Integration completed through    1 Jul 26   0: 0: 0
+2018-09-25 15:37:27,995 - isca - DEBUG - Integration completed through    1 Jul 27   0: 0: 0
+2018-09-25 15:37:30,917 - isca - DEBUG - Integration completed through    1 Jul 28   0: 0: 0
+2018-09-25 15:37:33,841 - isca - DEBUG - Integration completed through    1 Jul 29   0: 0: 0
+2018-09-25 15:37:36,774 - isca - DEBUG - Integration completed through    1 Jul 30   0: 0: 0
+2018-09-25 15:37:39,697 - isca - DEBUG - Integration completed through    1 Aug  1   0: 0: 0
+2018-09-25 15:37:39,708 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:37:39,781 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:37:39,781 - isca - DEBUG - 
+2018-09-25 15:37:39,781 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:37:39,782 - isca - DEBUG - 
+2018-09-25 15:37:39,782 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:37:39,782 - isca - DEBUG - Total runtime                        87.895999     87.896000     87.895999      0.000000  1.000     0     0     7
+2018-09-25 15:37:39,782 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:37:39,875 - isca - INFO - Run 7 complete
+2018-09-25 15:37:40,217 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:37:42,323 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0007.tar.gz
+2018-09-25 15:37:42,332 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0007/input.nml'
+2018-09-25 15:37:42,333 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0007/field_table'
+2018-09-25 15:37:42,341 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0007/diag_table'
+2018-09-25 15:37:42,413 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:37:42,429 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:37:42,482 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:37:42,484 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:37:42,492 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:37:42,492 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0007.tar.gz'
+2018-09-25 15:37:42,759 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0007.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:37:42,759 - isca - INFO - Beginning run 8
+2018-09-25 15:37:42,764 - isca - INFO - process running as 9405
+2018-09-25 15:37:42,866 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:37:43,028 - isca - DEBUG - 
+2018-09-25 15:37:43,028 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:37:43,028 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:37:43,028 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:37:43,028 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:37:43,028 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:37:43,028 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:37:43,028 - isca - DEBUG - 
+2018-09-25 15:37:43,189 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:37:43,189 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:37:43,189 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:37:43,189 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:37:43,189 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:37:43,189 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:37:43,189 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:37:43,189 - isca - DEBUG - /
+2018-09-25 15:37:43,190 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:37:43,192 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:37:43,196 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:37:43,197 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:37:43,197 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:37:43,197 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:37:43,237 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:37:43,241 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:37:46,262 - isca - DEBUG - Integration completed through    1 Aug  2   0: 0: 0
+2018-09-25 15:37:49,280 - isca - DEBUG - Integration completed through    1 Aug  3   0: 0: 0
+2018-09-25 15:37:52,295 - isca - DEBUG - Integration completed through    1 Aug  4   0: 0: 0
+2018-09-25 15:37:55,305 - isca - DEBUG - Integration completed through    1 Aug  5   0: 0: 0
+2018-09-25 15:37:58,319 - isca - DEBUG - Integration completed through    1 Aug  6   0: 0: 0
+2018-09-25 15:38:01,329 - isca - DEBUG - Integration completed through    1 Aug  7   0: 0: 0
+2018-09-25 15:38:04,343 - isca - DEBUG - Integration completed through    1 Aug  8   0: 0: 0
+2018-09-25 15:38:07,353 - isca - DEBUG - Integration completed through    1 Aug  9   0: 0: 0
+2018-09-25 15:38:10,358 - isca - DEBUG - Integration completed through    1 Aug 10   0: 0: 0
+2018-09-25 15:38:13,364 - isca - DEBUG - Integration completed through    1 Aug 11   0: 0: 0
+2018-09-25 15:38:16,369 - isca - DEBUG - Integration completed through    1 Aug 12   0: 0: 0
+2018-09-25 15:38:19,381 - isca - DEBUG - Integration completed through    1 Aug 13   0: 0: 0
+2018-09-25 15:38:22,384 - isca - DEBUG - Integration completed through    1 Aug 14   0: 0: 0
+2018-09-25 15:38:25,388 - isca - DEBUG - Integration completed through    1 Aug 15   0: 0: 0
+2018-09-25 15:38:28,393 - isca - DEBUG - Integration completed through    1 Aug 16   0: 0: 0
+2018-09-25 15:38:31,403 - isca - DEBUG - Integration completed through    1 Aug 17   0: 0: 0
+2018-09-25 15:38:34,414 - isca - DEBUG - Integration completed through    1 Aug 18   0: 0: 0
+2018-09-25 15:38:37,423 - isca - DEBUG - Integration completed through    1 Aug 19   0: 0: 0
+2018-09-25 15:38:40,435 - isca - DEBUG - Integration completed through    1 Aug 20   0: 0: 0
+2018-09-25 15:38:43,436 - isca - DEBUG - Integration completed through    1 Aug 21   0: 0: 0
+2018-09-25 15:38:46,436 - isca - DEBUG - Integration completed through    1 Aug 22   0: 0: 0
+2018-09-25 15:38:49,438 - isca - DEBUG - Integration completed through    1 Aug 23   0: 0: 0
+2018-09-25 15:38:52,438 - isca - DEBUG - Integration completed through    1 Aug 24   0: 0: 0
+2018-09-25 15:38:55,437 - isca - DEBUG - Integration completed through    1 Aug 25   0: 0: 0
+2018-09-25 15:38:58,436 - isca - DEBUG - Integration completed through    1 Aug 26   0: 0: 0
+2018-09-25 15:39:01,436 - isca - DEBUG - Integration completed through    1 Aug 27   0: 0: 0
+2018-09-25 15:39:04,435 - isca - DEBUG - Integration completed through    1 Aug 28   0: 0: 0
+2018-09-25 15:39:07,433 - isca - DEBUG - Integration completed through    1 Aug 29   0: 0: 0
+2018-09-25 15:39:10,434 - isca - DEBUG - Integration completed through    1 Aug 30   0: 0: 0
+2018-09-25 15:39:13,442 - isca - DEBUG - Integration completed through    1 Sep  1   0: 0: 0
+2018-09-25 15:39:13,453 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:39:13,524 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:39:13,524 - isca - DEBUG - 
+2018-09-25 15:39:13,524 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:39:13,524 - isca - DEBUG - 
+2018-09-25 15:39:13,524 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:39:13,524 - isca - DEBUG - Total runtime                        90.335027     90.335028     90.335027      0.000000  1.000     0     0     7
+2018-09-25 15:39:13,524 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:39:13,585 - isca - INFO - Run 8 complete
+2018-09-25 15:39:13,932 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:39:15,969 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0008.tar.gz
+2018-09-25 15:39:15,979 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0008/input.nml'
+2018-09-25 15:39:15,980 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0008/field_table'
+2018-09-25 15:39:15,988 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0008/diag_table'
+2018-09-25 15:39:16,062 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:39:16,077 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+2018-09-25 15:39:16,131 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/input.nml'
+2018-09-25 15:39:16,133 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/field_table'
+2018-09-25 15:39:16,143 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/diag_table'
+2018-09-25 15:39:16,143 - isca - INFO - Using restart file '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0008.tar.gz'
+2018-09-25 15:39:16,426 - isca - INFO - Restart /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0008.tar.gz extracted to /mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run/INPUT
+2018-09-25 15:39:16,427 - isca - INFO - Beginning run 9
+2018-09-25 15:39:16,432 - isca - INFO - process running as 9584
+2018-09-25 15:39:16,535 - isca - DEBUG - loadmodules for Bluecrystal 4 machines
+2018-09-25 15:39:16,700 - isca - DEBUG - 
+2018-09-25 15:39:16,700 - isca - DEBUG - Currently Loaded Modules:
+2018-09-25 15:39:16,700 - isca - DEBUG - 1) GCCcore/5.4.0                     6) vtune/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:39:16,700 - isca - DEBUG - 2) binutils/2.26-GCCcore-5.4.0       7) imkl/2017.1.132-GCC-5.4.0-2.26
+2018-09-25 15:39:16,700 - isca - DEBUG - 3) icc/2017.1.132-GCC-5.4.0-2.26     8) languages/intel/2017.01
+2018-09-25 15:39:16,700 - isca - DEBUG - 4) ifort/2017.1.132-GCC-5.4.0-2.26   9) libs/hdf5/1.10.1.MPI
+2018-09-25 15:39:16,700 - isca - DEBUG - 5) impi/2017.1.132-GCC-5.4.0-2.26   10) libs/netcdf/4.4.1.1.MPI
+2018-09-25 15:39:16,700 - isca - DEBUG - 
+2018-09-25 15:39:16,863 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to    32768.
+2018-09-25 15:39:16,863 - isca - DEBUG - &MPP_IO_NML
+2018-09-25 15:39:16,863 - isca - DEBUG - HEADER_BUFFER_VAL       =       16384,
+2018-09-25 15:39:16,863 - isca - DEBUG - GLOBAL_FIELD_ON_ROOT_PE = T,
+2018-09-25 15:39:16,863 - isca - DEBUG - IO_CLOCKS_ON    = F,
+2018-09-25 15:39:16,863 - isca - DEBUG - SHUFFLE =           0,
+2018-09-25 15:39:16,863 - isca - DEBUG - DEFLATE_LEVEL   =          -1
+2018-09-25 15:39:16,863 - isca - DEBUG - /
+2018-09-25 15:39:16,863 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     131072.
+2018-09-25 15:39:16,866 - isca - DEBUG - NOTE from PE    0: MPP_DOMAINS_SET_STACK_SIZE: stack size set to   600000.
+2018-09-25 15:39:16,870 - isca - DEBUG - starting            1  OpenMP threads per MPI-task
+2018-09-25 15:39:16,871 - isca - DEBUG - ATMOS MODEL DOMAIN DECOMPOSITION
+2018-09-25 15:39:16,871 - isca - DEBUG - X-AXIS =  128
+2018-09-25 15:39:16,871 - isca - DEBUG - Y-AXIS =    8   8   8   8   8   8   8   8
+2018-09-25 15:39:16,909 - isca - DEBUG - NOTE from PE    0: idealized_moist_phys: Using Frierson Quasi-Equilibrium convection scheme.
+2018-09-25 15:39:16,912 - isca - DEBUG - NOTE from PE    0: two_stream_gray_rad: Using Frierson (2006) radiation scheme.
+2018-09-25 15:39:19,921 - isca - DEBUG - Integration completed through    1 Sep  2   0: 0: 0
+2018-09-25 15:39:22,919 - isca - DEBUG - Integration completed through    1 Sep  3   0: 0: 0
+2018-09-25 15:39:25,931 - isca - DEBUG - Integration completed through    1 Sep  4   0: 0: 0
+2018-09-25 15:39:28,931 - isca - DEBUG - Integration completed through    1 Sep  5   0: 0: 0
+2018-09-25 15:39:31,943 - isca - DEBUG - Integration completed through    1 Sep  6   0: 0: 0
+2018-09-25 15:39:34,936 - isca - DEBUG - Integration completed through    1 Sep  7   0: 0: 0
+2018-09-25 15:39:37,935 - isca - DEBUG - Integration completed through    1 Sep  8   0: 0: 0
+2018-09-25 15:39:40,944 - isca - DEBUG - Integration completed through    1 Sep  9   0: 0: 0
+2018-09-25 15:39:43,956 - isca - DEBUG - Integration completed through    1 Sep 10   0: 0: 0
+2018-09-25 15:39:46,955 - isca - DEBUG - Integration completed through    1 Sep 11   0: 0: 0
+2018-09-25 15:39:49,962 - isca - DEBUG - Integration completed through    1 Sep 12   0: 0: 0
+2018-09-25 15:39:52,982 - isca - DEBUG - Integration completed through    1 Sep 13   0: 0: 0
+2018-09-25 15:39:55,999 - isca - DEBUG - Integration completed through    1 Sep 14   0: 0: 0
+2018-09-25 15:39:59,006 - isca - DEBUG - Integration completed through    1 Sep 15   0: 0: 0
+2018-09-25 15:40:02,010 - isca - DEBUG - Integration completed through    1 Sep 16   0: 0: 0
+2018-09-25 15:40:05,006 - isca - DEBUG - Integration completed through    1 Sep 17   0: 0: 0
+2018-09-25 15:40:07,996 - isca - DEBUG - Integration completed through    1 Sep 18   0: 0: 0
+2018-09-25 15:40:10,988 - isca - DEBUG - Integration completed through    1 Sep 19   0: 0: 0
+2018-09-25 15:40:13,985 - isca - DEBUG - Integration completed through    1 Sep 20   0: 0: 0
+2018-09-25 15:40:16,984 - isca - DEBUG - Integration completed through    1 Sep 21   0: 0: 0
+2018-09-25 15:40:20,038 - isca - DEBUG - Integration completed through    1 Sep 22   0: 0: 0
+2018-09-25 15:40:23,088 - isca - DEBUG - Integration completed through    1 Sep 23   0: 0: 0
+2018-09-25 15:40:26,163 - isca - DEBUG - Integration completed through    1 Sep 24   0: 0: 0
+2018-09-25 15:40:29,218 - isca - DEBUG - Integration completed through    1 Sep 25   0: 0: 0
+2018-09-25 15:40:32,267 - isca - DEBUG - Integration completed through    1 Sep 26   0: 0: 0
+2018-09-25 15:40:35,324 - isca - DEBUG - Integration completed through    1 Sep 27   0: 0: 0
+2018-09-25 15:40:38,374 - isca - DEBUG - Integration completed through    1 Sep 28   0: 0: 0
+2018-09-25 15:40:41,430 - isca - DEBUG - Integration completed through    1 Sep 29   0: 0: 0
+2018-09-25 15:40:44,482 - isca - DEBUG - Integration completed through    1 Sep 30   0: 0: 0
+2018-09-25 15:40:47,541 - isca - DEBUG - Integration completed through    1 Oct  1   0: 0: 0
+2018-09-25 15:40:47,553 - isca - DEBUG - NOTE from PE    0: MPP_IO_SET_STACK_SIZE: stack size set to     204800.
+2018-09-25 15:40:47,626 - isca - DEBUG - MPP_DOMAINS_STACK high water mark=       51200
+2018-09-25 15:40:47,626 - isca - DEBUG - 
+2018-09-25 15:40:47,626 - isca - DEBUG - Tabulating mpp_clock statistics across      8 PEs...
+2018-09-25 15:40:47,626 - isca - DEBUG - 
+2018-09-25 15:40:47,626 - isca - DEBUG - tmin          tmax          tavg          tstd  tfrac grain pemin pemax
+2018-09-25 15:40:47,626 - isca - DEBUG - Total runtime                        90.763530     90.763533     90.763532      0.000001  1.000     0     0     7
+2018-09-25 15:40:47,626 - isca - DEBUG - MPP_STACK high water mark=           0
+2018-09-25 15:40:47,650 - isca - INFO - Run 9 complete
+2018-09-25 15:40:47,995 - isca - DEBUG - atmos_monthly.nc combined and copied to data directory
+2018-09-25 15:40:49,977 - isca - INFO - Restart archive created at /mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/restarts/res0009.tar.gz
+2018-09-25 15:40:49,986 - isca - INFO - Writing namelist to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0009/input.nml'
+2018-09-25 15:40:49,988 - isca - INFO - Writing field_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0009/field_table'
+2018-09-25 15:40:49,997 - isca - INFO - Writing diag_table to '/mnt/storage/home/dm16883/scratch/Isca/output/frierson_test_experiment2/run0009/diag_table'
+2018-09-25 15:40:50,073 - isca - INFO - Emptied run directory '/mnt/storage/home/dm16883/Exo-planets/Model_runs/experiment/frierson_test_experiment2/run'
+
+real	14m0.674s
+user	0m31.226s
+sys	0m3.604s

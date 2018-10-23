@@ -1,0 +1,146 @@
+SLURM_CHECKPOINT_IMAGE_DIR=/var/slurm/checkpoint
+SLURM_NODELIST=compute074
+MKLROOT=/mnt/storage/apps/intel/mkl
+SLURM_JOB_NAME=simple_test
+MANPATH=/mnt/storage/apps/intel/vtune_amplifier_xe/man/common:/mnt/storage/apps/intel/vtune_amplifier_xe/man:/mnt/storage/apps/intel/man/common:/mnt/storage/apps/intel/man:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/man/common:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/man:/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/share/man:/mnt/storage/easybuild/software/GCCcore/5.4.0/share/man:/usr/share/lmod/lmod/share/man:/usr/local/share/man:/usr/share/man:/opt/ddn/ime/share/man:/opt/ddn/ime/share/man
+XDG_SESSION_ID=1206036
+EBROOTIMKL=/mnt/storage/apps/intel/mkl
+SLURMD_NODENAME=compute074
+SLURM_TOPOLOGY_ADDR=ofacore[01-06].ofaleaf03.compute074
+HOSTNAME=compute074
+_ModuleTable003_=PXtbIkZOIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwvaWNjLzIwMTcuMS4xMzItR0NDLTUuNC4wLTIuMjYubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iaWNjLzIwMTcuMS4xMzItR0NDLTUuNC4wLTIuMjYiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImljYyIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGlmb3J0PXtbIkZOIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwvaWZvcnQvMjAxNy4xLjEzMi1HQ0MtNS40LjAtMi4yNi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJpZm9ydC8yMDE3LjEuMTMyLUdDQy01LjQuMC0yLjI2IixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJd
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+EBVERSIONBINUTILS=2.26
+INTEL_LICENSE_FILE=/mnt/storage/apps/intel.lic
+SHELL=/bin/bash
+TERM=xterm-256color
+SLURM_JOB_QOS=normal
+HISTSIZE=1000
+EBROOTGCCCORE=/mnt/storage/easybuild/software/GCCcore/5.4.0
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+SSH_CLIENT=137.222.114.245 45347 22
+MODULEPATH_ROOT=/usr/share/modulefiles
+LMOD_DEFAULT_MODULEPATH=/mnt/storage/easybuild/modules/local:/mnt/storage/easybuild/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+LIBRARY_PATH=/mnt/storage/apps/intel/mkl/lib/intel64:/mnt/storage/apps/intel/impi/2017.1.132/lib64:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64:/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/lib:/mnt/storage/easybuild/software/GCCcore/5.4.0/lib64:/mnt/storage/easybuild/software/GCCcore/5.4.0/lib:/mnt/storage/apps/intel/lib:/mnt/storage/apps/intel/lib/intel64:/mnt/storage/apps/intel/vtune_amplifier_xe/lib64
+LMOD_PKG=/usr/share/lmod/lmod
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+LMOD_VERSION=6.5.1
+SSH_TTY=/dev/pts/31
+EBDEVELIMPI=/mnt/storage/apps/intel/impi/2017.1.132/easybuild/impi-5.1.3.181-iccifort-2016.3.210-GCC-5.4.0-2.26-easybuild-devel
+MIC_LD_LIBRARY_PATH=/mnt/storage/apps/intel/mkl/mic/lib:/mnt/storage/apps/intel/impi/2017.1.132/mic/lib
+LC_ALL=POSIX
+_ModuleTable007_=R0NDLTUuNC4wLTIuMjYubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0idnR1bmUvMjAxNy4xLjEzMi1HQ0MtNS40LjAtMi4yNiIsWyJsb2FkT3JkZXIiXT02LHByb3BUPXt9LFsic2hvcnQiXT0idnR1bmUiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbCIsIi9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwiLCIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xt
+SLURM_MEM_PER_CPU=1000
+QT_GRAPHICSSYSTEM_CHECKED=1
+SLURM_NNODES=1
+USER=dm16883
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LMOD_sys=Linux
+LD_LIBRARY_PATH=/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/lib:/mnt/storage/software/libraries/intel/hdf5-1.10.1-mpi/lib:/mnt/storage/apps/intel/compilers_and_libraries/linux/debugger/libipt/intel64/lib:/mnt/storage/apps/intel/mkl/lib/intel64:/mnt/storage/apps/intel/impi/2017.1.132/lib64:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/compiler/lib/intel64:/mnt/storage/apps/intel/lib/intel64:/mnt/storage/apps/intel/lib:/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/lib:/mnt/storage/easybuild/software/GCCcore/5.4.0/lib/gcc/x86_64-unknown-linux-gnu/5.4.0:/mnt/storage/easybuild/software/GCCcore/5.4.0/lib64:/mnt/storage/easybuild/software/GCCcore/5.4.0/lib:/mnt/storage/apps/intel/lib64:/mnt/storage/apps/intel/vtune_amplifier_xe/lib64
+EBDEVELBINUTILS=/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/easybuild/binutils-2.26-GCCcore-5.4.0-easybuild-devel
+GFDL_WORK=/mnt/storage/home/dm16883/Exo-planets/Model_runs
+SLURM_JOBID=1209631
+CPATH=/mnt/storage/apps/intel/mkl/include64:/mnt/storage/apps/intel/impi/2017.1.132/include64:/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/include:/mnt/storage/easybuild/software/GCCcore/5.4.0/include
+_ModuleTable004_=PSJpZm9ydCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGlta2w9e1siRk4iXT0iL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2FsbC9pbWtsLzIwMTcuMS4xMzItR0NDLTUuNC4wLTIuMjYiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJpbWtsLzIwMTcuMS4xMzItR0NDLTUuNC4wLTIuMjYiLFsibG9hZE9yZGVyIl09Nyxwcm9wVD17fSxbInNob3J0Il09Imlta2wiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxpbXBpPXtbIkZOIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwvaW1waS8yMDE3LjEuMTMyLUdDQy01LjQuMC0yLjI2IixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0iaW1waS8yMDE3LjEuMTMyLUdDQy01LjQuMC0yLjI2IixbImxvYWRP
+LMOD_PREPEND_BLOCK=normal
+NLSPATH=/mnt/storage/apps/intel/mkl/idb/intel64/locale/%l_%t/%N:/mnt/storage/apps/intel/idb/intel64/locale/%l_%t/%N:/mnt/storage/apps/intel/impi/2017.1.132/idb/intel64/locale/%l_%t/%N
+SLURM_TASKS_PER_NODE=1
+PATH=/mnt/storage/software/libraries/intel/netcdf-4.4.1.1-mpi/bin:/mnt/storage/software/libraries/intel/hdf5-1.10.1-mpi/bin:/mnt/storage/apps/intel/mkl/bin64:/mnt/storage/apps/intel/vtune_amplifier_xe/bin64:/mnt/storage/apps/intel/bin64:/mnt/storage/apps/intel/impi/2017.1.132/bin64:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/bin:/mnt/storage/apps/intel/bin:/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0/bin:/mnt/storage/easybuild/software/GCCcore/5.4.0/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/opt/ddn/ime/bin:/mnt/storage/home/dm16883/.local/bin:/mnt/storage/home/dm16883/bin
+MAIL=/var/spool/mail/dm16883
+GFDL_BASE=/mnt/storage/home/dm16883/Exo-planets/Isca
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09MTAsYmFzZU1wYXRoQT17Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbCIsIi9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9hbGwiLCIvZXRjL21vZHVsZWZpbGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvTW9kdWxlcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxmYW1pbHk9e30saW5hY3RpdmU9e30sbVQ9e0dDQ2NvcmU9e1si
+GFDL_DATA=/mnt/storage/home/dm16883/Exo-planets/Data
+EBDEVELIMKL=/mnt/storage/apps/intel/mkl/easybuild/imkl-5.1.3.181-GCC-5.4.0-2.26-easybuild-devel
+SLURM_JOB_ID=1209631
+EBROOTINTEL=/mnt/storage/easybuild/software/intel/2017.01
+LMOD_SETTARG_CMD=:
+EBDEVELICC=/mnt/storage/apps/intel/easybuild/vtune-2017.1.132-GCC-5.4.0-2.26-easybuild-devel
+SLURM_JOB_USER=dm16883
+PWD=/mnt/storage/home/dm16883/Exo-planets/Isca/exp/test_cases/giant_planet
+EBVERSIONINTEL=2017.01
+F90=mpiifort
+CUDA_VISIBLE_DEVICES=NoDevFiles
+_LMFILES_=/mnt/storage/easybuild/modules/all/GCCcore/5.4.0.lua:/mnt/storage/easybuild/modules/all/binutils/2.26-GCCcore-5.4.0.lua:/mnt/storage/easybuild/modules/all/icc/2017.1.132-GCC-5.4.0-2.26.lua:/mnt/storage/easybuild/modules/all/ifort/2017.1.132-GCC-5.4.0-2.26.lua:/mnt/storage/easybuild/modules/all/impi/2017.1.132-GCC-5.4.0-2.26:/mnt/storage/easybuild/modules/all/vtune/2017.1.132-GCC-5.4.0-2.26.lua:/mnt/storage/easybuild/modules/all/imkl/2017.1.132-GCC-5.4.0-2.26:/mnt/storage/easybuild/modules/local/languages/intel/2017.01.lua:/mnt/storage/easybuild/modules/local/libs/hdf5/1.10.1.MPI.lua:/mnt/storage/easybuild/modules/local/libs/netcdf/4.4.1.1.MPI.lua
+EBDEVELGCCCORE=/mnt/storage/easybuild/software/GCCcore/5.4.0/easybuild/GCCcore-5.4.0-easybuild-devel
+IDB_HOME=/mnt/storage/apps/intel/vtune_amplifier_xe/bin64:/mnt/storage/apps/intel/compilers_and_libraries_2017.1.132/linux/bin/intel64
+LANG=en_GB.UTF-8
+MODULEPATH=/mnt/storage/easybuild/modules/local:/mnt/storage/easybuild/modules/all:/etc/modulefiles:/usr/share/modulefiles:/usr/share/Modules/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+SLURM_JOB_UID=315814
+_ModuleTable_Sz_=8
+LOADEDMODULES=GCCcore/5.4.0:binutils/2.26-GCCcore-5.4.0:icc/2017.1.132-GCC-5.4.0-2.26:ifort/2017.1.132-GCC-5.4.0-2.26:impi/2017.1.132-GCC-5.4.0-2.26:vtune/2017.1.132-GCC-5.4.0-2.26:imkl/2017.1.132-GCC-5.4.0-2.26:languages/intel/2017.01:libs/hdf5/1.10.1.MPI:libs/netcdf/4.4.1.1.MPI
+SLURM_NODEID=0
+EBROOTBINUTILS=/mnt/storage/easybuild/software/binutils/2.26-GCCcore-5.4.0
+SLURM_SUBMIT_DIR=/mnt/storage/home/dm16883/Exo-planets/Isca/exp/test_cases/giant_planet
+SLURM_TASK_PID=2028
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+_ModuleTable005_=cmRlciJdPTUscHJvcFQ9e30sWyJzaG9ydCJdPSJpbXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJsYW5ndWFnZXMvaW50ZWwiXT17WyJGTiJdPSIvbW50L3N0b3JhZ2UvZWFzeWJ1aWxkL21vZHVsZXMvbG9jYWwvbGFuZ3VhZ2VzL2ludGVsLzIwMTcuMDEubHVhIixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0ibGFuZ3VhZ2VzL2ludGVsLzIwMTcuMDEiLFsibG9hZE9yZGVyIl09OCxwcm9wVD17fSxbInNob3J0Il09Imxhbmd1YWdlcy9pbnRlbCIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LFsibGlicy9oZGY1Il09e1siRk4iXT0iL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2xvY2FsL2xpYnMvaGRmNS8xLjEwLjEuTVBJLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1
+SLURM_CPUS_ON_NODE=1
+HISTIGNORE=opaswitchadmin*:opasaquery*:opaswquery*
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+HISTCONTROL=ignoredups
+SLURM_JOB_NODELIST=compute074
+EBVERSIONIMPI=5.1.3.181
+HOME=/mnt/storage/home/dm16883
+SHLVL=2
+EBVERSIONGCCCORE=5.4.0
+SLURM_LOCALID=0
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_CLUSTER_NAME=bristol_cluster
+_ModuleTable002_=Rk4iXT0iL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2FsbC9HQ0Njb3JlLzUuNC4wLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09IkdDQ2NvcmUvNS40LjAiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09IkdDQ2NvcmUiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxiaW51dGlscz17WyJGTiJdPSIvbW50L3N0b3JhZ2UvZWFzeWJ1aWxkL21vZHVsZXMvYWxsL2JpbnV0aWxzLzIuMjYtR0NDY29yZS01LjQuMC5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJiaW51dGlscy8yLjI2LUdDQ2NvcmUtNS40LjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInNob3J0Il09ImJpbnV0aWxzIixbInN0YXR1cyJdPSJhY3RpdmUiLH0saWNj
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=bc4login1.bc4.acrc.priv
+SLURM_JOB_PARTITION=cpu_test
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+_ModuleTable008_=b2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9tbnQvc3RvcmFnZS9lYXN5YnVpbGQvbW9kdWxlcy9sb2NhbDovbW50L3N0b3JhZ2UvZWFzeWJ1aWxkL21vZHVsZXMvYWxsOi9ldGMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL3NoYXJlL01vZHVsZXMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsWyJ2ZXJzaW9uIl09Mix9
+LOGNAME=dm16883
+LMOD_arch=x86_64
+EBDEVELINTEL=/mnt/storage/easybuild/software/intel/2017.01/easybuild/intel-2017.01-easybuild-devel
+QTLIB=/usr/lib64/qt-3.3/lib
+GPU_DEVICE_ORDINAL=NoDevFiles
+SLURM_JOB_ACCOUNT=default
+SSH_CONNECTION=137.222.114.245 45347 172.26.2.21 22
+LC_CTYPE=POSIX
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/usr/share/lmod/lmod
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+EBVERSIONIMKL=5.1.3.181
+LMOD_FULL_SETTARG_SUPPORT=no
+XDG_RUNTIME_DIR=/run/user/315814
+EBROOTIMPI=/mnt/storage/apps/intel/impi/2017.1.132
+EBVERSIONICC=2017.1.132
+CC=mpiicc
+I_MKL_ROOT=/mnt/storage/apps/intel/mkl
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+EBROOTICC=/mnt/storage/apps/intel/
+_ModuleTable006_=bGxOYW1lIl09ImxpYnMvaGRmNS8xLjEwLjEuTVBJIixbImxvYWRPcmRlciJdPTkscHJvcFQ9e30sWyJzaG9ydCJdPSJsaWJzL2hkZjUiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxbImxpYnMvbmV0Y2RmIl09e1siRk4iXT0iL21udC9zdG9yYWdlL2Vhc3lidWlsZC9tb2R1bGVzL2xvY2FsL2xpYnMvbmV0Y2RmLzQuNC4xLjEuTVBJLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09ImxpYnMvbmV0Y2RmLzQuNC4xLjEuTVBJIixbImxvYWRPcmRlciJdPTEwLHByb3BUPXt9LFsic2hvcnQiXT0ibGlicy9uZXRjZGYiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx2dHVuZT17WyJGTiJdPSIvbW50L3N0b3JhZ2UvZWFzeWJ1aWxkL21vZHVsZXMvYWxsL3Z0dW5lLzIwMTcuMS4xMzIt
+NO_AT_BRIDGE=1
+LMOD_COLORIZE=yes
+GFDL_ENV=bc4
+I_MPI_ROOT=/mnt/storage/apps/intel/impi/2017.1.132
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
+ [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+_=/bin/env
+/tmp/slurmd/job1209631/slurm_script: line 5: ulimit: max memory size: cannot modify limit: Operation not permitted
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 508004
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 1024000
+open files                      (-n) 51200
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 4096
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited

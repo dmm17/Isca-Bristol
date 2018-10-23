@@ -1,0 +1,23 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1
+
+Traceback (most recent call last):
+  File "giant_planet_dann_stephen.py", line 5, in <module>
+    from isca import IscaCodeBase, DiagTable, Experiment, Namelist, GFDL_BASE
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/__init__.py", line 79, in <module>
+    from isca.experiment import Experiment, DiagTable, Namelist, FailedRunError
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/experiment.py", line 17, in <module>
+    from isca.helpers import destructive, useworkdir, mkdir
+  File "/mnt/storage/home/dm16883/Exo-planets/Isca/src/extra/python/isca/helpers.py", line 8, in <module>
+    git = sh.git.bake('--no-pager')
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 3349, in __getattr__
+    return self.__env[name]
+  File "/mnt/storage/home/dm16883/.conda/envs/isca_env/lib/python3.6/site-packages/sh.py", line 3226, in __getitem__
+    raise CommandNotFound(k)
+sh.CommandNotFound: git
+
+real	0m5.873s
+user	0m0.226s
+sys	0m0.112s

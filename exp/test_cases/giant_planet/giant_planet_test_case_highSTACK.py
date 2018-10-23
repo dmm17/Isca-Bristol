@@ -140,7 +140,7 @@ exp.namelist = namelist = Namelist({
     },
 
     'fms_nml': {
-        'domains_stack_size': 5000000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
+        'domains_stack_size': 1000000 #Setting size of stack available to model, which needs to be higher than the default when running at high spatial resolution
     },
 
     'fms_io_nml': {

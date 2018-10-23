@@ -1,0 +1,13 @@
+modules loaded
+
+Currently Loaded Modules:
+  1) build/gcc-7.2.0   2) languages/anaconda2/5.0.1   3) tools/git/2.18.0
+
+Traceback (most recent call last):
+  File "realistic_continents_fixed_sst_dann.py", line 5, in <module>
+    import f90nml
+ImportError: No module named f90nml
+
+real	0m0.159s
+user	0m0.044s
+sys	0m0.029s
